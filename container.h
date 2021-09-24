@@ -2,6 +2,7 @@
 #define __container__
 
 #include "transport.h"
+#include <algorithm> // для std::swap
 
 struct container {
     enum {max_len = 10000}; 
@@ -9,6 +10,7 @@ struct container {
     transport *cont[max_len];
 };
 
+// Инициализирует пустой контейнер
 void Init(container &c);
 
 // Очистка контейнера от элементов (освобождение памяти)

@@ -1,5 +1,9 @@
 #include "transport.h"
 
+
+//------------------------------------------------------------------------------
+// ввод транспорта из потока ввода
+// если данные не правлитьные - возвращает nullptr, он считается невалидным оБьектом
 transport* In(std::ifstream &ifst) {
     transport *t = new transport;
     std::string k;
@@ -14,15 +18,20 @@ transport* In(std::ifstream &ifst) {
     } else if (k == "ship") {
         t->k = transport::SHIP;
         In(t->s, ifst);
+        // не забыл обработать невалидный обьект
         if (t->s.ship_kind == ship::ERROR) {
+            delete t;
             return nullptr;
         }
     } else {
+        delete t;
         return nullptr;
     }
     return t;
 }
 
+//------------------------------------------------------------------------------
+// инициализация случайного транспорта
 transport *InRnd() {
     transport *t = new transport;
     auto k = Random();
@@ -41,6 +50,9 @@ transport *InRnd() {
     return t;
 }
 
+
+//------------------------------------------------------------------------------
+// вывод транспорта в поток вывода
 void Out(transport &t, std::ofstream &ofst) {
     if (t.k == transport::PLAIN) {
         Out(t.p, ofst);
@@ -51,6 +63,9 @@ void Out(transport &t, std::ofstream &ofst) {
     }
 }
 
+
+//------------------------------------------------------------------------------
+// вычисление оптимального времени, для транспорта
 double OptimalTime(transport &t) {
     if (t.k == transport::PLAIN) {
         return OptimalTime(t.p);

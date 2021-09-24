@@ -1,7 +1,10 @@
 #include "ship.h"
+#include <fstream>
 
-
-
+//------------------------------------------------------------------------------
+// ввод корабля из потока ввода
+// на самом деле, лучше как то сообщать, что мы возвращаем не валидный обьект (ship::ERROR),
+// но в проекте такого масштаба достаочно не забыть обработать это в местах, где мы вызваем эту 
 void In(ship &s, std::ifstream &ifst) {
     ifst >> s.speed >> s.distance >> s.displace;
     std::string kind;
@@ -18,6 +21,9 @@ void In(ship &s, std::ifstream &ifst) {
     }
 }
 
+
+//------------------------------------------------------------------------------
+// инициализация случайного корабля
 void InRnd(ship &s) {
     s.speed = Random();
     s.distance = Random();
@@ -33,6 +39,9 @@ void InRnd(ship &s) {
     }
 }
 
+
+//------------------------------------------------------------------------------
+// вывод корабля в поток вывода
 void Out(ship &s, std::ofstream &ofst) {
     ofst << "It is ship: "
          << "speed = " << s.speed << ", " 
@@ -51,6 +60,9 @@ void Out(ship &s, std::ofstream &ofst) {
     ofst << "Optimal time = " << OptimalTime(s) << ".\n";
 }
 
+
+//------------------------------------------------------------------------------
+// вычисление оптимального времени, для корабля
 double OptimalTime(ship &s) {
     return static_cast<double>(s.distance) /  static_cast<double>(s.speed);
 }
