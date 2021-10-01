@@ -3,8 +3,8 @@
 
 //------------------------------------------------------------------------------
 // ввод поезда из потока ввода
-void In(train &t, std::ifstream &ifst) {
-    ifst >> t.speed >> t.distance >> t.cars_counter;
+void In(train &t, FILE* file) {
+    fscanf(file, "%d %d %d %d", &t.speed, &t.distance, &t.cars_counter);
 }
 
 //------------------------------------------------------------------------------
@@ -17,13 +17,16 @@ void InRnd(train &t) {
 
 //------------------------------------------------------------------------------
 // вывод поезда в поток вывода
-void Out(train &t, std::ofstream &ofst) {
-    ofst << "It is train: "
-         << "speed = " << t.speed << ", " 
-         << "distance = " << t.distance << ", "
-         << "cars_counter = " << t.cars_counter << ". ";
+void Out(train &t, FILE* file) {
+    fprintf(
+        file,
+        "It is train: speed = %d, distance = %d, cars counter = %d.",
+        t.speed,
+        t.distance,
+        t.cars_counter
+    );
 
-    ofst << "Optimal time = " << OptimalTime(t) << ".\n";
+    fprintf(file, "Optimal time = %lf.\n", OptimalTime(t));
 }
 
 

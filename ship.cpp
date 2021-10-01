@@ -1,20 +1,18 @@
 #include "ship.h"
-#include <fstream>
 
 //------------------------------------------------------------------------------
 // ввод корабля из потока ввода
 // на самом деле, лучше как то сообщать, что мы возвращаем не валидный обьект (ship::ERROR),
 // но в проекте такого масштаба достаочно не забыть обработать это в местах, где мы вызваем эту 
-void In(ship &s, std::ifstream &ifst) {
-    ifst >> s.speed >> s.distance >> s.displace;
-    std::string kind;
+void In(ship &s, FILE* file) {
+    char kind[7];
+    fscanf(file, "%d %d %d %s", &s.speed, &s.distance, &s.displace, kind);
 
-    ifst >> kind;
-    if (kind == "liner") {
+    if (strcmp(kind, "liner") == 0) {
         s.ship_kind = ship::LINER;
-    } else if (kind == "tug") {
+    } else if (strcmp(kind, "tug") == 0) {
         s.ship_kind = ship::TUG;
-    } else if (kind == "tanker") {
+    } else if (strcmp(kind, "tanker") == 0) {
         s.ship_kind = ship::TANKER;
     } else {
         s.ship_kind = ship::ERROR;
@@ -42,22 +40,25 @@ void InRnd(ship &s) {
 
 //------------------------------------------------------------------------------
 // вывод корабля в поток вывода
-void Out(ship &s, std::ofstream &ofst) {
-    ofst << "It is ship: "
-         << "speed = " << s.speed << ", " 
-         << "distance = " << s.distance << ", "
-         << "displace = " << s.displace << ", ";
+void Out(ship &s, FILE* file) {
+    fprintf(
+        file,
+        "It is ship: speed = %d, distance = %d, displace = %d, ",
+        s.speed,
+        s.distance,
+        s.displace
+    );
 
     
     if (s.ship_kind == ship::LINER) {
-        ofst << "ship kind = liner" << ". ";
+        fprintf(file, "ship kind = liner. ");
     } else if (s.ship_kind == ship::TUG) {
-        ofst << "ship kind = tug" << ". ";
+        fprintf(file, "ship kind = tug. ");
     } else if (s.ship_kind == ship::TANKER) {
-        ofst << "ship kind = tanker" << ". ";
+        fprintf(file, "ship kind = tanker. ");
     }
 
-    ofst << "Optimal time = " << OptimalTime(s) << ".\n";
+    fprintf(file, "Optimal time = %lf.\n", OptimalTime(s));
 }
 
 

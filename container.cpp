@@ -22,9 +22,9 @@ void Clear(container &c) {
 //------------------------------------------------------------------------------
 // Ввод содержимого контейнера из указанного потока
 // я решил игнорировать невалидные обьекты
-void In(container &c, std::ifstream &ifst) {
-    while(!ifst.eof()) {
-        if((c.cont[c.len] = In(ifst)) != 0) {
+void In(container &c, FILE* file) {
+    while(!feof(file)) {
+        if((c.cont[c.len] = In(file)) != 0) {
             c.len++;
         }
     }
@@ -44,11 +44,11 @@ void InRnd(container &c, int size) {
 
 //------------------------------------------------------------------------------
 // Вывод содержимого контейнера в указанный поток
-void Out(container &c, std::ofstream &ofst) {
-    ofst << "Container contains " << c.len << " elements." << std::endl;
+void Out(container &c, FILE* file) {
+    fprintf(file, "Container contains %d elements.\n", c.len);
     for(int i = 0; i < c.len; i++) {
-        ofst << i << ": ";
-        Out(*(c.cont[i]), ofst);
+        fprintf(file, "%d: ", i);
+        Out(*(c.cont[i]), file);
     }
 }
 
@@ -68,7 +68,7 @@ void StraightSelectionSort(container &c) {
         // мы нашли индекс минимального не отсортированного элемента
         std::swap(c.cont[i], c.cont[min_index]); 
         // устанавливаем минимум, на первую не отсортированную позицию тем самым делаем её сортирванной
-        // я считаю, что std::swap вполне себе не противоречит идеям C, не уверен, есть ли она там,
+        // я считаю, что функция std::swap вполне себе не противоречит идеям C, не уверен, есть ли она там,
         // но не вижу ничего плохого в использовании, даже если её нет в С.
     }
 }

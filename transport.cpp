@@ -4,20 +4,21 @@
 //------------------------------------------------------------------------------
 // ввод транспорта из потока ввода
 // если данные не правлитьные - возвращает nullptr, он считается невалидным оБьектом
-transport* In(std::ifstream &ifst) {
+transport* In(FILE* file) {
     transport *t = new transport;
-    std::string k;
-    ifst >> k;
-
-    if (k == "plain") {
+    char kind[6];
+    fscanf(file, "%s", kind);
+    if (strcmp(kind, "plain") == 0) {
         t->k = transport::PLAIN;
-        In(t->p, ifst);
-    } else if (k == "train") {
+        In(t->p, file);
+    } else if (strcmp(kind, "train") == 0) {
+         printf("2\n");
+    fflush(stdout);
         t->k = transport::TRAIN;
-        In(t->t, ifst);
-    } else if (k == "ship") {
+        In(t->t, file);
+    } else if (strcmp(kind, "ship") == 0) {
         t->k = transport::SHIP;
-        In(t->s, ifst);
+        In(t->s, file);
         // не забыл обработать невалидный обьект
         if (t->s.ship_kind == ship::ERROR) {
             delete t;
@@ -53,13 +54,13 @@ transport *InRnd() {
 
 //------------------------------------------------------------------------------
 // вывод транспорта в поток вывода
-void Out(transport &t, std::ofstream &ofst) {
+void Out(transport &t, FILE* file) {
     if (t.k == transport::PLAIN) {
-        Out(t.p, ofst);
+        Out(t.p, file);
     } else if (t.k == transport::TRAIN) {
-        Out(t.t, ofst);
+        Out(t.t, file);
     } else  {
-        Out(t.s, ofst);
+        Out(t.s, file);
     }
 }
 

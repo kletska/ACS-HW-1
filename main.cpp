@@ -12,25 +12,23 @@
 #include "container.h"
 
 void errMessage1() {
-    std::cout << "incorrect command line!\n"
+    printf("incorrect command line!\n"
             "  Waited:\n"
             "     command -f infile outfile01 outfile02\n"
             "  Or:\n"
-            "     command -n number outfile01 outfile02\n";
+            "     command -n number outfile01 outfile02\n");
 }
 
 void errMessage2(int size) {
-    std::cout << "incorrect numer of figures = "
-            << size
-            << ". Set 0 < number <= 10000\n";
+    printf("incorrect numer of figures = %d. Set 0 < number <= 10000\n", size);
 }
 
 void errMessage3() {
-    std::cout << "incorrect qualifier value!\n"
+    printf("incorrect qualifier value!\n"
             "  Waited:\n"
             "     command -f infile outfile01 outfile02\n"
             "  Or:\n"
-            "     command -n number outfile01 outfile02\n";
+            "     command -n number outfile01 outfile02\n");
 }
 
 //------------------------------------------------------------------------------
@@ -41,13 +39,14 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    std::cout << "Start"<< std::endl;
+    printf("Start\n");
     container c;
     Init(c);
 
     if(!strcmp(argv[1], "-f")) {
-        std::ifstream ifst(argv[2]);
-        In(c, ifst);
+        FILE* input =  fopen(argv[2], "r");
+        In(c, input);
+        fclose(input);
     } else if(!strcmp(argv[1], "-n")) {
         auto size = atoi(argv[2]);
         if((size < 1) || (size > 10000)) { 
@@ -64,18 +63,20 @@ int main(int argc, char* argv[]) {
     }
 
     // Вывод содержимого контейнера в файл
-    std::ofstream ofst1(argv[3]);
-    ofst1 << "Filled container:\n";
-    Out(c, ofst1);
+    FILE* output = fopen(argv[3], "w");
+    fprintf(output, "Filled container:\n");
+    Out(c, output);
 
     // The 2nd part of task
-    std::ofstream ofst2(argv[4]);
-    ofst2 << "Sorted container:\n";
+    FILE* output2 = fopen(argv[4], "w");
+    fprintf(output2, "Sorted container:\n");
     StraightSelectionSort(c);
-    Out(c, ofst2);
+    Out(c, output2);
 
     Clear(c);
-    std::cout << "Stop"<< std::endl;
+    printf("Stop\n");
     
+    fclose(output);
+    fclose(output2);
     return 0;
 }

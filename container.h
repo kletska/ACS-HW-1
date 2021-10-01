@@ -17,13 +17,13 @@ void Init(container &c);
 void Clear(container &c);
 
 // Ввод содержимого контейнера из указанного потока
-void In(container &c, std::ifstream &ifst);
+void In(container &c, FILE* file);
 
 // Случайный ввод содержимого контейнера
 void InRnd(container &c, int size);
 
 // Вывод содержимого контейнера в указанный поток
-void Out(container &c, std::ofstream &ofst);
+void Out(container &c, FILE* file);
 
 // Вычисление суммы периметров всех фигур в контейнере
 void StraightSelectionSort(container &c);

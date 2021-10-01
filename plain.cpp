@@ -3,8 +3,8 @@
 
 //------------------------------------------------------------------------------
 // ввод самолёта из потока ввода
-void In(plain &p, std::ifstream &ifst) {
-    ifst >> p.speed >> p.distance >> p.fly_distance >> p.lifting_capacity;
+void In(plain &p, FILE* file) {
+    fscanf(file, "%d %d %d %d", &p.speed, &p.distance, &p.fly_distance, &p.lifting_capacity);
 }
 
 
@@ -20,15 +20,17 @@ void InRnd(plain &p) {
 
 //------------------------------------------------------------------------------
 // вывод самолета в поток вывода
-void Out(plain &p, std::ofstream &ofst) {
-    ofst << "It is plain: "
-         << "speed = " << p.speed << ", " 
-         << "distance = " << p.distance << ", "
-         << "fly distance = " << p.fly_distance << ", "
-         << "lifting capacity = " << p.lifting_capacity << ". "
-         << "Optimal time = " << OptimalTime(p) << ".\n";
+void Out(plain &p, FILE* file) {
+    fprintf(
+        file,
+        "It is plain: speed = %d, distance = %d, fly distance = %d, lifting capacity = %d. Optimal time = %lf.\n",
+        p.speed,
+        p.distance,
+        p.fly_distance,
+        p.lifting_capacity,
+        OptimalTime(p)
+    );
 }
-
 
 //------------------------------------------------------------------------------
 // вычисление оптимального времени, для самолёта
