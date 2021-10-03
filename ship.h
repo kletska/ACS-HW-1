@@ -1,7 +1,6 @@
 #ifndef __ship__
 #define __ship__
 
-#include <fstream>
 #include <cstring>
 #include <cstdio>
 

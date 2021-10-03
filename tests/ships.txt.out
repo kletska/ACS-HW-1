@@ -1,6 +1,6 @@
 Filled container:
 Container contains 6 elements.
-0: It is ship: speed = 23, distance = 2, displace = 43, ship kind = liner. Optimal time = 0.0869565.
+0: It is ship: speed = 23, distance = 2, displace = 43, ship kind = liner. Optimal time = 0.086957.
 1: It is ship: speed = 27, distance = 14, displace = 93, ship kind = liner. Optimal time = 0.518519.
 2: It is ship: speed = 9, distance = 2, displace = 38, ship kind = tug. Optimal time = 0.222222.
 3: It is ship: speed = 48, distance = 11, displace = 57, ship kind = tug. Optimal time = 0.229167.

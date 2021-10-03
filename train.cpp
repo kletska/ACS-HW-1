@@ -20,7 +20,7 @@ void InRnd(train &t) {
 void Out(train &t, FILE* file) {
     fprintf(
         file,
-        "It is train: speed = %d, distance = %d, cars counter = %d.",
+        "It is train: speed = %d, distance = %d, cars counter = %d. ",
         t.speed,
         t.distance,
         t.cars_counter

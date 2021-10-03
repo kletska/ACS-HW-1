@@ -5,7 +5,7 @@
 // на самом деле, лучше как то сообщать, что мы возвращаем не валидный обьект (ship::ERROR),
 // но в проекте такого масштаба достаочно не забыть обработать это в местах, где мы вызваем эту 
 void In(ship &s, FILE* file) {
-    char kind[7];
+    char kind[9];
     fscanf(file, "%d %d %d %s", &s.speed, &s.distance, &s.displace, kind);
 
     if (strcmp(kind, "liner") == 0) {

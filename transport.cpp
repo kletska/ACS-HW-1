@@ -6,14 +6,12 @@
 // если данные не правлитьные - возвращает nullptr, он считается невалидным оБьектом
 transport* In(FILE* file) {
     transport *t = new transport;
-    char kind[6];
+    char kind[9];
     fscanf(file, "%s", kind);
     if (strcmp(kind, "plain") == 0) {
         t->k = transport::PLAIN;
         In(t->p, file);
     } else if (strcmp(kind, "train") == 0) {
-         printf("2\n");
-    fflush(stdout);
         t->k = transport::TRAIN;
         In(t->t, file);
     } else if (strcmp(kind, "ship") == 0) {

@@ -1,102 +1,1002 @@
 Filled container:
-Container contains 100 elements.
-0: It is plain: speed = 2, distance = 7, fly distance = 58, lifting capacity = 1. Optimal time = 29.
-1: It is plain: speed = 55, distance = 72, fly distance = 57, lifting capacity = 66. Optimal time = 1.03636.
-2: It is plain: speed = 60, distance = 7, fly distance = 81, lifting capacity = 95. Optimal time = 1.35.
-3: It is ship: speed = 18, distance = 28, displace = 4, ship kind = liner. Optimal time = 1.55556.
-4: It is ship: speed = 75, distance = 14, displace = 93, ship kind = liner. Optimal time = 0.186667.
-5: It is train: speed = 33, distance = 9, cars_counter = 2. Optimal time = 0.272727.
-6: It is plain: speed = 15, distance = 66, fly distance = 28, lifting capacity = 21. Optimal time = 1.86667.
-7: It is plain: speed = 28, distance = 5, fly distance = 30, lifting capacity = 100. Optimal time = 1.07143.
-8: It is train: speed = 95, distance = 26, cars_counter = 21. Optimal time = 0.273684.
-9: It is ship: speed = 7, distance = 67, displace = 96, ship kind = tug. Optimal time = 9.57143.
-10: It is train: speed = 100, distance = 6, cars_counter = 24. Optimal time = 0.06.
-11: It is ship: speed = 19, distance = 16, displace = 41, ship kind = tug. Optimal time = 0.842105.
-12: It is train: speed = 1, distance = 67, cars_counter = 26. Optimal time = 67.
-13: It is plain: speed = 32, distance = 54, fly distance = 87, lifting capacity = 6. Optimal time = 2.71875.
-14: It is plain: speed = 92, distance = 35, fly distance = 84, lifting capacity = 4. Optimal time = 0.913043.
-15: It is plain: speed = 10, distance = 76, fly distance = 33, lifting capacity = 68. Optimal time = 3.3.
-16: It is train: speed = 81, distance = 43, cars_counter = 88. Optimal time = 0.530864.
-17: It is ship: speed = 48, distance = 11, displace = 57, ship kind = tug. Optimal time = 0.229167.
-18: It is plain: speed = 49, distance = 31, fly distance = 78, lifting capacity = 50. Optimal time = 1.59184.
-19: It is train: speed = 3, distance = 64, cars_counter = 28. Optimal time = 21.3333.
-20: It is ship: speed = 51, distance = 34, displace = 93, ship kind = liner. Optimal time = 0.666667.
-21: It is ship: speed = 76, distance = 97, displace = 1, ship kind = tug. Optimal time = 1.27632.
-22: It is train: speed = 85, distance = 4, cars_counter = 67. Optimal time = 0.0470588.
-23: It is ship: speed = 99, distance = 54, displace = 96, ship kind = tanker. Optimal time = 0.545455.
-24: It is ship: speed = 5, distance = 16, displace = 94, ship kind = tanker. Optimal time = 3.2.
-25: It is ship: speed = 23, distance = 2, displace = 43, ship kind = liner. Optimal time = 0.0869565.
-26: It is plain: speed = 23, distance = 37, fly distance = 68, lifting capacity = 8. Optimal time = 2.95652.
-27: It is ship: speed = 61, distance = 27, displace = 57, ship kind = liner. Optimal time = 0.442623.
-28: It is train: speed = 93, distance = 81, cars_counter = 16. Optimal time = 0.870968.
-29: It is train: speed = 47, distance = 80, cars_counter = 47. Optimal time = 1.70213.
-30: It is ship: speed = 28, distance = 44, displace = 69, ship kind = tanker. Optimal time = 1.57143.
-31: It is plain: speed = 14, distance = 36, fly distance = 58, lifting capacity = 89. Optimal time = 4.14286.
-32: It is ship: speed = 52, distance = 66, displace = 55, ship kind = tanker. Optimal time = 1.26923.
-33: It is plain: speed = 22, distance = 81, fly distance = 83, lifting capacity = 82. Optimal time = 3.77273.
-34: It is plain: speed = 39, distance = 90, fly distance = 90, lifting capacity = 83. Optimal time = 2.30769.
-35: It is ship: speed = 5, distance = 31, displace = 17, ship kind = tug. Optimal time = 6.2.
-36: It is ship: speed = 69, distance = 16, displace = 25, ship kind = tanker. Optimal time = 0.231884.
-37: It is plain: speed = 36, distance = 55, fly distance = 34, lifting capacity = 93. Optimal time = 0.944444.
-38: It is train: speed = 71, distance = 96, cars_counter = 60. Optimal time = 1.35211.
-39: It is train: speed = 70, distance = 13, cars_counter = 98. Optimal time = 0.185714.
-40: It is ship: speed = 47, distance = 31, displace = 13, ship kind = tug. Optimal time = 0.659574.
-41: It is plain: speed = 3, distance = 68, fly distance = 91, lifting capacity = 7. Optimal time = 30.3333.
-42: It is ship: speed = 7, distance = 95, displace = 79, ship kind = tug. Optimal time = 13.5714.
-43: It is train: speed = 3, distance = 16, cars_counter = 8. Optimal time = 5.33333.
-44: It is plain: speed = 22, distance = 42, fly distance = 82, lifting capacity = 64. Optimal time = 3.72727.
-45: It is train: speed = 77, distance = 75, cars_counter = 41. Optimal time = 0.974026.
-46: It is ship: speed = 88, distance = 38, displace = 52, ship kind = tug. Optimal time = 0.431818.
-47: It is plain: speed = 64, distance = 71, fly distance = 41, lifting capacity = 18. Optimal time = 0.640625.
-48: It is plain: speed = 31, distance = 77, fly distance = 39, lifting capacity = 89. Optimal time = 1.25806.
-49: It is ship: speed = 69, distance = 16, displace = 81, ship kind = tanker. Optimal time = 0.231884.
-50: It is plain: speed = 40, distance = 12, fly distance = 5, lifting capacity = 33. Optimal time = 0.125.
-51: It is plain: speed = 21, distance = 49, fly distance = 22, lifting capacity = 95. Optimal time = 1.04762.
-52: It is ship: speed = 71, distance = 34, displace = 78, ship kind = tug. Optimal time = 0.478873.
-53: It is ship: speed = 98, distance = 86, displace = 90, ship kind = tanker. Optimal time = 0.877551.
-54: It is train: speed = 79, distance = 20, cars_counter = 31. Optimal time = 0.253165.
-55: It is ship: speed = 9, distance = 2, displace = 38, ship kind = tug. Optimal time = 0.222222.
-56: It is train: speed = 60, distance = 11, cars_counter = 25. Optimal time = 0.183333.
-57: It is plain: speed = 68, distance = 58, fly distance = 16, lifting capacity = 88. Optimal time = 0.235294.
-58: It is train: speed = 89, distance = 34, cars_counter = 98. Optimal time = 0.382022.
-59: It is plain: speed = 68, distance = 27, fly distance = 81, lifting capacity = 35. Optimal time = 1.19118.
-60: It is train: speed = 18, distance = 24, cars_counter = 14. Optimal time = 1.33333.
-61: It is train: speed = 54, distance = 86, cars_counter = 3. Optimal time = 1.59259.
-62: It is train: speed = 46, distance = 56, cars_counter = 59. Optimal time = 1.21739.
-63: It is plain: speed = 89, distance = 19, fly distance = 84, lifting capacity = 66. Optimal time = 0.94382.
-64: It is plain: speed = 51, distance = 75, fly distance = 57, lifting capacity = 90. Optimal time = 1.11765.
-65: It is ship: speed = 46, distance = 23, displace = 29, ship kind = tanker. Optimal time = 0.5.
-66: It is plain: speed = 55, distance = 37, fly distance = 76, lifting capacity = 31. Optimal time = 1.38182.
-67: It is train: speed = 51, distance = 97, cars_counter = 79. Optimal time = 1.90196.
-68: It is train: speed = 82, distance = 33, cars_counter = 26. Optimal time = 0.402439.
-69: It is plain: speed = 89, distance = 84, fly distance = 99, lifting capacity = 29. Optimal time = 1.11236.
-70: It is ship: speed = 82, distance = 94, displace = 43, ship kind = liner. Optimal time = 1.14634.
-71: It is ship: speed = 100, distance = 25, displace = 51, ship kind = liner. Optimal time = 0.25.
-72: It is plain: speed = 31, distance = 1, fly distance = 89, lifting capacity = 86. Optimal time = 2.87097.
-73: It is train: speed = 65, distance = 68, cars_counter = 43. Optimal time = 1.04615.
-74: It is plain: speed = 64, distance = 21, fly distance = 71, lifting capacity = 45. Optimal time = 1.10938.
-75: It is plain: speed = 96, distance = 71, fly distance = 94, lifting capacity = 31. Optimal time = 0.979167.
-76: It is train: speed = 74, distance = 33, cars_counter = 55. Optimal time = 0.445946.
-77: It is ship: speed = 27, distance = 91, displace = 39, ship kind = tanker. Optimal time = 3.37037.
-78: It is plain: speed = 90, distance = 22, fly distance = 14, lifting capacity = 20. Optimal time = 0.155556.
-79: It is train: speed = 3, distance = 57, cars_counter = 11. Optimal time = 19.
-80: It is train: speed = 25, distance = 53, cars_counter = 85. Optimal time = 2.12.
-81: It is train: speed = 74, distance = 55, cars_counter = 85. Optimal time = 0.743243.
-82: It is train: speed = 50, distance = 7, cars_counter = 24. Optimal time = 0.14.
-83: It is plain: speed = 28, distance = 49, fly distance = 65, lifting capacity = 35. Optimal time = 2.32143.
-84: It is ship: speed = 43, distance = 25, displace = 59, ship kind = liner. Optimal time = 0.581395.
-85: It is plain: speed = 100, distance = 42, fly distance = 53, lifting capacity = 71. Optimal time = 0.53.
-86: It is train: speed = 7, distance = 80, cars_counter = 26. Optimal time = 11.4286.
-87: It is train: speed = 4, distance = 78, cars_counter = 9. Optimal time = 19.5.
-88: It is train: speed = 3, distance = 64, cars_counter = 79. Optimal time = 21.3333.
-89: It is plain: speed = 65, distance = 86, fly distance = 8, lifting capacity = 97. Optimal time = 0.123077.
-90: It is ship: speed = 9, distance = 13, displace = 99, ship kind = tug. Optimal time = 1.44444.
-91: It is ship: speed = 75, distance = 86, displace = 76, ship kind = tanker. Optimal time = 1.14667.
-92: It is train: speed = 69, distance = 18, cars_counter = 60. Optimal time = 0.26087.
-93: It is plain: speed = 24, distance = 39, fly distance = 61, lifting capacity = 100. Optimal time = 2.54167.
-94: It is train: speed = 39, distance = 8, cars_counter = 88. Optimal time = 0.205128.
-95: It is plain: speed = 23, distance = 67, fly distance = 78, lifting capacity = 40. Optimal time = 3.3913.
-96: It is train: speed = 85, distance = 36, cars_counter = 68. Optimal time = 0.423529.
-97: It is plain: speed = 1, distance = 19, fly distance = 21, lifting capacity = 56. Optimal time = 21.
-98: It is plain: speed = 58, distance = 83, fly distance = 10, lifting capacity = 47. Optimal time = 0.172414.
-99: It is plain: speed = 27, distance = 6, fly distance = 87, lifting capacity = 2. Optimal time = 3.22222.
+Container contains 1000 elements.
+0: It is ship: speed = 15, distance = 14, displace = 19, ship kind = tanker. Optimal time = 0.933333.
+1: It is plain: speed = 14, distance = 87, fly distance = 5, lifting capacity = 63. Optimal time = 0.357143.
+2: It is plain: speed = 90, distance = 44, fly distance = 51, lifting capacity = 59. Optimal time = 0.566667.
+3: It is plain: speed = 20, distance = 30, fly distance = 20, lifting capacity = 36. Optimal time = 1.000000.
+4: It is train: speed = 70, distance = 54, cars counter = 12. Optimal time = 0.771429.
+5: It is train: speed = 33, distance = 67, cars counter = 37. Optimal time = 2.030303.
+6: It is ship: speed = 27, distance = 68, displace = 52, ship kind = liner. Optimal time = 2.518519.
+7: It is plain: speed = 70, distance = 25, fly distance = 8, lifting capacity = 35. Optimal time = 0.114286.
+8: It is plain: speed = 64, distance = 49, fly distance = 28, lifting capacity = 6. Optimal time = 0.437500.
+9: It is ship: speed = 30, distance = 64, displace = 97, ship kind = tug. Optimal time = 2.133333.
+10: It is plain: speed = 68, distance = 89, fly distance = 39, lifting capacity = 37. Optimal time = 0.573529.
+11: It is plain: speed = 50, distance = 79, fly distance = 74, lifting capacity = 16. Optimal time = 1.480000.
+12: It is train: speed = 37, distance = 94, cars counter = 35. Optimal time = 2.540541.
+13: It is train: speed = 87, distance = 15, cars counter = 9. Optimal time = 0.172414.
+14: It is ship: speed = 74, distance = 95, displace = 73, ship kind = tanker. Optimal time = 1.283784.
+15: It is train: speed = 52, distance = 95, cars counter = 34. Optimal time = 1.826923.
+16: It is train: speed = 58, distance = 82, cars counter = 34. Optimal time = 1.413793.
+17: It is plain: speed = 49, distance = 22, fly distance = 41, lifting capacity = 37. Optimal time = 0.836735.
+18: It is plain: speed = 90, distance = 15, fly distance = 89, lifting capacity = 57. Optimal time = 0.988889.
+19: It is train: speed = 77, distance = 51, cars counter = 16. Optimal time = 0.662338.
+20: It is train: speed = 89, distance = 83, cars counter = 24. Optimal time = 0.932584.
+21: It is plain: speed = 56, distance = 18, fly distance = 23, lifting capacity = 45. Optimal time = 0.410714.
+22: It is plain: speed = 74, distance = 39, fly distance = 45, lifting capacity = 7. Optimal time = 0.608108.
+23: It is train: speed = 78, distance = 41, cars counter = 51. Optimal time = 0.525641.
+24: It is ship: speed = 62, distance = 43, displace = 14, ship kind = tanker. Optimal time = 0.693548.
+25: It is plain: speed = 28, distance = 65, fly distance = 40, lifting capacity = 62. Optimal time = 1.428571.
+26: It is ship: speed = 42, distance = 29, displace = 56, ship kind = liner. Optimal time = 0.690476.
+27: It is ship: speed = 31, distance = 80, displace = 19, ship kind = liner. Optimal time = 2.580645.
+28: It is plain: speed = 63, distance = 11, fly distance = 28, lifting capacity = 2. Optimal time = 0.444444.
+29: It is train: speed = 86, distance = 2, cars counter = 32. Optimal time = 0.023256.
+30: It is ship: speed = 52, distance = 9, displace = 40, ship kind = tug. Optimal time = 0.173077.
+31: It is train: speed = 68, distance = 77, cars counter = 1. Optimal time = 1.132353.
+32: It is ship: speed = 68, distance = 62, displace = 24, ship kind = tanker. Optimal time = 0.911765.
+33: It is train: speed = 31, distance = 43, cars counter = 53. Optimal time = 1.387097.
+34: It is train: speed = 23, distance = 71, cars counter = 60. Optimal time = 3.086957.
+35: It is train: speed = 86, distance = 70, cars counter = 55. Optimal time = 0.813953.
+36: It is plain: speed = 24, distance = 93, fly distance = 40, lifting capacity = 7. Optimal time = 1.666667.
+37: It is train: speed = 91, distance = 67, cars counter = 9. Optimal time = 0.736264.
+38: It is plain: speed = 88, distance = 76, fly distance = 64, lifting capacity = 40. Optimal time = 0.727273.
+39: It is ship: speed = 31, distance = 54, displace = 34, ship kind = tanker. Optimal time = 1.741935.
+40: It is plain: speed = 64, distance = 35, fly distance = 100, lifting capacity = 24. Optimal time = 1.562500.
+41: It is plain: speed = 23, distance = 83, fly distance = 36, lifting capacity = 8. Optimal time = 1.565217.
+42: It is train: speed = 43, distance = 46, cars counter = 27. Optimal time = 1.069767.
+43: It is ship: speed = 37, distance = 85, displace = 4, ship kind = liner. Optimal time = 2.297297.
+44: It is plain: speed = 65, distance = 14, fly distance = 90, lifting capacity = 92. Optimal time = 1.384615.
+45: It is ship: speed = 30, distance = 51, displace = 7, ship kind = tanker. Optimal time = 1.700000.
+46: It is plain: speed = 51, distance = 30, fly distance = 48, lifting capacity = 37. Optimal time = 0.941176.
+47: It is ship: speed = 23, distance = 45, displace = 51, ship kind = liner. Optimal time = 1.956522.
+48: It is ship: speed = 10, distance = 9, displace = 74, ship kind = tug. Optimal time = 0.900000.
+49: It is plain: speed = 8, distance = 43, fly distance = 72, lifting capacity = 12. Optimal time = 9.000000.
+50: It is plain: speed = 23, distance = 76, fly distance = 34, lifting capacity = 12. Optimal time = 1.478261.
+51: It is train: speed = 10, distance = 93, cars counter = 69. Optimal time = 9.300000.
+52: It is plain: speed = 75, distance = 5, fly distance = 19, lifting capacity = 4. Optimal time = 0.253333.
+53: It is train: speed = 55, distance = 85, cars counter = 26. Optimal time = 1.545455.
+54: It is plain: speed = 35, distance = 83, fly distance = 82, lifting capacity = 97. Optimal time = 2.342857.
+55: It is ship: speed = 56, distance = 3, displace = 79, ship kind = liner. Optimal time = 0.053571.
+56: It is train: speed = 2, distance = 26, cars counter = 66. Optimal time = 13.000000.
+57: It is plain: speed = 53, distance = 100, fly distance = 88, lifting capacity = 72. Optimal time = 1.660377.
+58: It is train: speed = 80, distance = 40, cars counter = 29. Optimal time = 0.500000.
+59: It is train: speed = 96, distance = 47, cars counter = 62. Optimal time = 0.489583.
+60: It is plain: speed = 53, distance = 46, fly distance = 77, lifting capacity = 3. Optimal time = 1.452830.
+61: It is plain: speed = 11, distance = 85, fly distance = 29, lifting capacity = 54. Optimal time = 2.636364.
+62: It is train: speed = 83, distance = 84, cars counter = 2. Optimal time = 1.012048.
+63: It is train: speed = 86, distance = 28, cars counter = 46. Optimal time = 0.325581.
+64: It is train: speed = 32, distance = 45, cars counter = 48. Optimal time = 1.406250.
+65: It is plain: speed = 5, distance = 80, fly distance = 95, lifting capacity = 86. Optimal time = 19.000000.
+66: It is ship: speed = 90, distance = 32, displace = 99, ship kind = tanker. Optimal time = 0.355556.
+67: It is train: speed = 45, distance = 69, cars counter = 87. Optimal time = 1.533333.
+68: It is ship: speed = 79, distance = 71, displace = 57, ship kind = liner. Optimal time = 0.898734.
+69: It is train: speed = 91, distance = 68, cars counter = 64. Optimal time = 0.747253.
+70: It is train: speed = 53, distance = 43, cars counter = 16. Optimal time = 0.811321.
+71: It is ship: speed = 74, distance = 60, displace = 13, ship kind = tanker. Optimal time = 0.810811.
+72: It is train: speed = 92, distance = 23, cars counter = 1. Optimal time = 0.250000.
+73: It is ship: speed = 64, distance = 85, displace = 28, ship kind = tanker. Optimal time = 1.328125.
+74: It is plain: speed = 24, distance = 24, fly distance = 7, lifting capacity = 52. Optimal time = 0.291667.
+75: It is train: speed = 30, distance = 60, cars counter = 39. Optimal time = 2.000000.
+76: It is train: speed = 50, distance = 6, cars counter = 6. Optimal time = 0.120000.
+77: It is ship: speed = 59, distance = 48, displace = 35, ship kind = liner. Optimal time = 0.813559.
+78: It is ship: speed = 46, distance = 36, displace = 2, ship kind = tanker. Optimal time = 0.782609.
+79: It is train: speed = 76, distance = 66, cars counter = 8. Optimal time = 0.868421.
+80: It is plain: speed = 50, distance = 35, fly distance = 47, lifting capacity = 22. Optimal time = 0.940000.
+81: It is train: speed = 70, distance = 81, cars counter = 9. Optimal time = 1.157143.
+82: It is plain: speed = 10, distance = 20, fly distance = 14, lifting capacity = 52. Optimal time = 1.400000.
+83: It is train: speed = 20, distance = 58, cars counter = 89. Optimal time = 2.900000.
+84: It is plain: speed = 57, distance = 76, fly distance = 53, lifting capacity = 30. Optimal time = 0.929825.
+85: It is plain: speed = 88, distance = 83, fly distance = 34, lifting capacity = 67. Optimal time = 0.386364.
+86: It is train: speed = 52, distance = 27, cars counter = 49. Optimal time = 0.519231.
+87: It is ship: speed = 61, distance = 95, displace = 75, ship kind = tanker. Optimal time = 1.557377.
+88: It is train: speed = 55, distance = 31, cars counter = 92. Optimal time = 0.563636.
+89: It is train: speed = 51, distance = 5, cars counter = 67. Optimal time = 0.098039.
+90: It is ship: speed = 24, distance = 76, displace = 60, ship kind = tanker. Optimal time = 3.166667.
+91: It is plain: speed = 35, distance = 57, fly distance = 14, lifting capacity = 8. Optimal time = 0.400000.
+92: It is train: speed = 97, distance = 93, cars counter = 15. Optimal time = 0.958763.
+93: It is plain: speed = 44, distance = 41, fly distance = 54, lifting capacity = 97. Optimal time = 1.227273.
+94: It is plain: speed = 100, distance = 23, fly distance = 24, lifting capacity = 68. Optimal time = 0.240000.
+95: It is ship: speed = 54, distance = 59, displace = 92, ship kind = tug. Optimal time = 1.092593.
+96: It is plain: speed = 58, distance = 75, fly distance = 91, lifting capacity = 34. Optimal time = 1.568966.
+97: It is plain: speed = 95, distance = 18, fly distance = 21, lifting capacity = 52. Optimal time = 0.221053.
+98: It is train: speed = 80, distance = 100, cars counter = 27. Optimal time = 1.250000.
+99: It is train: speed = 14, distance = 33, cars counter = 68. Optimal time = 2.357143.
+100: It is train: speed = 38, distance = 16, cars counter = 8. Optimal time = 0.421053.
+101: It is plain: speed = 38, distance = 83, fly distance = 9, lifting capacity = 14. Optimal time = 0.236842.
+102: It is plain: speed = 19, distance = 57, fly distance = 92, lifting capacity = 33. Optimal time = 4.842105.
+103: It is train: speed = 66, distance = 75, cars counter = 52. Optimal time = 1.136364.
+104: It is train: speed = 70, distance = 69, cars counter = 25. Optimal time = 0.985714.
+105: It is train: speed = 99, distance = 56, cars counter = 72. Optimal time = 0.565657.
+106: It is plain: speed = 80, distance = 37, fly distance = 62, lifting capacity = 100. Optimal time = 0.775000.
+107: It is train: speed = 51, distance = 15, cars counter = 2. Optimal time = 0.294118.
+108: It is ship: speed = 53, distance = 84, displace = 100, ship kind = liner. Optimal time = 1.584906.
+109: It is plain: speed = 18, distance = 27, fly distance = 63, lifting capacity = 51. Optimal time = 3.500000.
+110: It is plain: speed = 80, distance = 25, fly distance = 44, lifting capacity = 84. Optimal time = 0.550000.
+111: It is train: speed = 64, distance = 60, cars counter = 70. Optimal time = 0.937500.
+112: It is ship: speed = 15, distance = 93, displace = 91, ship kind = tanker. Optimal time = 6.200000.
+113: It is plain: speed = 52, distance = 46, fly distance = 72, lifting capacity = 55. Optimal time = 1.384615.
+114: It is plain: speed = 26, distance = 46, fly distance = 64, lifting capacity = 9. Optimal time = 2.461538.
+115: It is train: speed = 34, distance = 80, cars counter = 63. Optimal time = 2.352941.
+116: It is plain: speed = 42, distance = 65, fly distance = 52, lifting capacity = 74. Optimal time = 1.238095.
+117: It is plain: speed = 47, distance = 57, fly distance = 39, lifting capacity = 10. Optimal time = 0.829787.
+118: It is train: speed = 9, distance = 23, cars counter = 82. Optimal time = 2.555556.
+119: It is train: speed = 66, distance = 28, cars counter = 82. Optimal time = 0.424242.
+120: It is ship: speed = 73, distance = 6, displace = 71, ship kind = tug. Optimal time = 0.082192.
+121: It is train: speed = 17, distance = 48, cars counter = 39. Optimal time = 2.823529.
+122: It is ship: speed = 81, distance = 71, displace = 76, ship kind = tanker. Optimal time = 0.876543.
+123: It is train: speed = 93, distance = 95, cars counter = 37. Optimal time = 1.021505.
+124: It is train: speed = 93, distance = 45, cars counter = 72. Optimal time = 0.483871.
+125: It is ship: speed = 12, distance = 80, displace = 77, ship kind = tug. Optimal time = 6.666667.
+126: It is plain: speed = 42, distance = 73, fly distance = 14, lifting capacity = 10. Optimal time = 0.333333.
+127: It is ship: speed = 19, distance = 33, displace = 82, ship kind = tug. Optimal time = 1.736842.
+128: It is train: speed = 81, distance = 40, cars counter = 14. Optimal time = 0.493827.
+129: It is ship: speed = 10, distance = 41, displace = 5, ship kind = tug. Optimal time = 4.100000.
+130: It is plain: speed = 100, distance = 62, fly distance = 18, lifting capacity = 44. Optimal time = 0.180000.
+131: It is plain: speed = 42, distance = 98, fly distance = 18, lifting capacity = 73. Optimal time = 0.428571.
+132: It is ship: speed = 63, distance = 5, displace = 67, ship kind = liner. Optimal time = 0.079365.
+133: It is ship: speed = 76, distance = 84, displace = 89, ship kind = liner. Optimal time = 1.105263.
+134: It is ship: speed = 90, distance = 60, displace = 46, ship kind = liner. Optimal time = 0.666667.
+135: It is train: speed = 59, distance = 90, cars counter = 66. Optimal time = 1.525424.
+136: It is plain: speed = 14, distance = 98, fly distance = 66, lifting capacity = 27. Optimal time = 4.714286.
+137: It is ship: speed = 10, distance = 33, displace = 9, ship kind = tug. Optimal time = 3.300000.
+138: It is ship: speed = 81, distance = 32, displace = 16, ship kind = tanker. Optimal time = 0.395062.
+139: It is ship: speed = 2, distance = 56, displace = 25, ship kind = tanker. Optimal time = 28.000000.
+140: It is plain: speed = 85, distance = 2, fly distance = 37, lifting capacity = 44. Optimal time = 0.435294.
+141: It is ship: speed = 17, distance = 69, displace = 57, ship kind = tug. Optimal time = 4.058824.
+142: It is train: speed = 72, distance = 72, cars counter = 83. Optimal time = 1.000000.
+143: It is ship: speed = 50, distance = 50, displace = 98, ship kind = tug. Optimal time = 1.000000.
+144: It is train: speed = 4, distance = 35, cars counter = 39. Optimal time = 8.750000.
+145: It is ship: speed = 50, distance = 76, displace = 84, ship kind = tug. Optimal time = 1.520000.
+146: It is ship: speed = 9, distance = 89, displace = 78, ship kind = liner. Optimal time = 9.888889.
+147: It is plain: speed = 15, distance = 40, fly distance = 89, lifting capacity = 83. Optimal time = 5.933333.
+148: It is ship: speed = 97, distance = 41, displace = 93, ship kind = tanker. Optimal time = 0.422680.
+149: It is plain: speed = 76, distance = 9, fly distance = 13, lifting capacity = 25. Optimal time = 0.171053.
+150: It is train: speed = 47, distance = 35, cars counter = 14. Optimal time = 0.744681.
+151: It is plain: speed = 25, distance = 100, fly distance = 83, lifting capacity = 100. Optimal time = 3.320000.
+152: It is plain: speed = 86, distance = 82, fly distance = 44, lifting capacity = 26. Optimal time = 0.511628.
+153: It is ship: speed = 88, distance = 67, displace = 77, ship kind = liner. Optimal time = 0.761364.
+154: It is train: speed = 60, distance = 87, cars counter = 4. Optimal time = 1.450000.
+155: It is train: speed = 79, distance = 75, cars counter = 63. Optimal time = 0.949367.
+156: It is plain: speed = 35, distance = 75, fly distance = 31, lifting capacity = 93. Optimal time = 0.885714.
+157: It is train: speed = 17, distance = 6, cars counter = 54. Optimal time = 0.352941.
+158: It is ship: speed = 5, distance = 88, displace = 40, ship kind = tug. Optimal time = 17.600000.
+159: It is train: speed = 73, distance = 83, cars counter = 2. Optimal time = 1.136986.
+160: It is ship: speed = 22, distance = 68, displace = 12, ship kind = tug. Optimal time = 3.090909.
+161: It is plain: speed = 23, distance = 87, fly distance = 82, lifting capacity = 74. Optimal time = 3.565217.
+162: It is ship: speed = 56, distance = 88, displace = 71, ship kind = tug. Optimal time = 1.571429.
+163: It is ship: speed = 53, distance = 35, displace = 87, ship kind = liner. Optimal time = 0.660377.
+164: It is train: speed = 92, distance = 61, cars counter = 44. Optimal time = 0.663043.
+165: It is train: speed = 52, distance = 84, cars counter = 3. Optimal time = 1.615385.
+166: It is plain: speed = 18, distance = 56, fly distance = 58, lifting capacity = 40. Optimal time = 3.222222.
+167: It is ship: speed = 21, distance = 40, displace = 1, ship kind = tug. Optimal time = 1.904762.
+168: It is ship: speed = 82, distance = 16, displace = 42, ship kind = liner. Optimal time = 0.195122.
+169: It is train: speed = 64, distance = 32, cars counter = 69. Optimal time = 0.500000.
+170: It is ship: speed = 66, distance = 55, displace = 88, ship kind = liner. Optimal time = 0.833333.
+171: It is train: speed = 48, distance = 100, cars counter = 76. Optimal time = 2.083333.
+172: It is plain: speed = 35, distance = 30, fly distance = 74, lifting capacity = 5. Optimal time = 2.114286.
+173: It is train: speed = 32, distance = 44, cars counter = 59. Optimal time = 1.375000.
+174: It is train: speed = 83, distance = 60, cars counter = 47. Optimal time = 0.722892.
+175: It is plain: speed = 93, distance = 14, fly distance = 1, lifting capacity = 34. Optimal time = 0.010753.
+176: It is plain: speed = 17, distance = 65, fly distance = 89, lifting capacity = 84. Optimal time = 5.235294.
+177: It is train: speed = 43, distance = 72, cars counter = 38. Optimal time = 1.674419.
+178: It is train: speed = 71, distance = 90, cars counter = 15. Optimal time = 1.267606.
+179: It is train: speed = 76, distance = 96, cars counter = 95. Optimal time = 1.263158.
+180: It is ship: speed = 80, distance = 78, displace = 23, ship kind = tanker. Optimal time = 0.975000.
+181: It is train: speed = 57, distance = 97, cars counter = 28. Optimal time = 1.701754.
+182: It is ship: speed = 42, distance = 93, displace = 69, ship kind = liner. Optimal time = 2.214286.
+183: It is train: speed = 85, distance = 92, cars counter = 49. Optimal time = 1.082353.
+184: It is ship: speed = 73, distance = 43, displace = 91, ship kind = tanker. Optimal time = 0.589041.
+185: It is train: speed = 62, distance = 52, cars counter = 100. Optimal time = 0.838710.
+186: It is ship: speed = 27, distance = 95, displace = 29, ship kind = tug. Optimal time = 3.518519.
+187: It is ship: speed = 7, distance = 81, displace = 64, ship kind = tug. Optimal time = 11.571429.
+188: It is plain: speed = 60, distance = 15, fly distance = 57, lifting capacity = 53. Optimal time = 0.950000.
+189: It is train: speed = 77, distance = 28, cars counter = 20. Optimal time = 0.363636.
+190: It is train: speed = 71, distance = 20, cars counter = 33. Optimal time = 0.281690.
+191: It is train: speed = 15, distance = 23, cars counter = 5. Optimal time = 1.533333.
+192: It is train: speed = 36, distance = 56, cars counter = 100. Optimal time = 1.555556.
+193: It is train: speed = 35, distance = 46, cars counter = 99. Optimal time = 1.314286.
+194: It is plain: speed = 72, distance = 57, fly distance = 25, lifting capacity = 35. Optimal time = 0.347222.
+195: It is ship: speed = 66, distance = 46, displace = 10, ship kind = tanker. Optimal time = 0.696970.
+196: It is plain: speed = 16, distance = 99, fly distance = 78, lifting capacity = 87. Optimal time = 4.875000.
+197: It is train: speed = 48, distance = 59, cars counter = 96. Optimal time = 1.229167.
+198: It is plain: speed = 73, distance = 18, fly distance = 47, lifting capacity = 24. Optimal time = 0.643836.
+199: It is plain: speed = 54, distance = 23, fly distance = 27, lifting capacity = 40. Optimal time = 0.500000.
+200: It is plain: speed = 77, distance = 32, fly distance = 92, lifting capacity = 33. Optimal time = 1.194805.
+201: It is plain: speed = 26, distance = 76, fly distance = 74, lifting capacity = 23. Optimal time = 2.846154.
+202: It is train: speed = 96, distance = 21, cars counter = 53. Optimal time = 0.218750.
+203: It is ship: speed = 98, distance = 91, displace = 10, ship kind = tug. Optimal time = 0.928571.
+204: It is train: speed = 5, distance = 39, cars counter = 73. Optimal time = 7.800000.
+205: It is ship: speed = 85, distance = 97, displace = 31, ship kind = liner. Optimal time = 1.141176.
+206: It is train: speed = 58, distance = 30, cars counter = 91. Optimal time = 0.517241.
+207: It is ship: speed = 13, distance = 82, displace = 19, ship kind = liner. Optimal time = 6.307692.
+208: It is ship: speed = 94, distance = 95, displace = 82, ship kind = tug. Optimal time = 1.010638.
+209: It is plain: speed = 54, distance = 83, fly distance = 88, lifting capacity = 52. Optimal time = 1.629630.
+210: It is train: speed = 49, distance = 100, cars counter = 74. Optimal time = 2.040816.
+211: It is ship: speed = 38, distance = 46, displace = 31, ship kind = tanker. Optimal time = 1.210526.
+212: It is plain: speed = 13, distance = 64, fly distance = 13, lifting capacity = 22. Optimal time = 1.000000.
+213: It is plain: speed = 3, distance = 8, fly distance = 57, lifting capacity = 37. Optimal time = 19.000000.
+214: It is ship: speed = 30, distance = 47, displace = 71, ship kind = liner. Optimal time = 1.566667.
+215: It is train: speed = 1, distance = 65, cars counter = 34. Optimal time = 65.000000.
+216: It is ship: speed = 5, distance = 85, displace = 60, ship kind = tanker. Optimal time = 17.000000.
+217: It is plain: speed = 85, distance = 62, fly distance = 74, lifting capacity = 30. Optimal time = 0.870588.
+218: It is ship: speed = 47, distance = 24, displace = 4, ship kind = tug. Optimal time = 0.510638.
+219: It is train: speed = 26, distance = 6, cars counter = 90. Optimal time = 0.230769.
+220: It is plain: speed = 63, distance = 78, fly distance = 10, lifting capacity = 44. Optimal time = 0.158730.
+221: It is train: speed = 80, distance = 67, cars counter = 4. Optimal time = 0.837500.
+222: It is plain: speed = 83, distance = 37, fly distance = 19, lifting capacity = 39. Optimal time = 0.228916.
+223: It is train: speed = 78, distance = 96, cars counter = 9. Optimal time = 1.230769.
+224: It is ship: speed = 57, distance = 82, displace = 44, ship kind = liner. Optimal time = 1.438596.
+225: It is train: speed = 67, distance = 3, cars counter = 90. Optimal time = 0.044776.
+226: It is plain: speed = 80, distance = 95, fly distance = 95, lifting capacity = 64. Optimal time = 1.187500.
+227: It is plain: speed = 25, distance = 73, fly distance = 52, lifting capacity = 1. Optimal time = 2.080000.
+228: It is ship: speed = 70, distance = 56, displace = 37, ship kind = tanker. Optimal time = 0.800000.
+229: It is plain: speed = 55, distance = 95, fly distance = 69, lifting capacity = 85. Optimal time = 1.254545.
+230: It is plain: speed = 77, distance = 98, fly distance = 46, lifting capacity = 10. Optimal time = 0.597403.
+231: It is ship: speed = 45, distance = 90, displace = 59, ship kind = tug. Optimal time = 2.000000.
+232: It is train: speed = 64, distance = 79, cars counter = 77. Optimal time = 1.234375.
+233: It is ship: speed = 43, distance = 86, displace = 35, ship kind = tug. Optimal time = 2.000000.
+234: It is ship: speed = 87, distance = 71, displace = 11, ship kind = liner. Optimal time = 0.816092.
+235: It is train: speed = 15, distance = 86, cars counter = 14. Optimal time = 5.733333.
+236: It is train: speed = 55, distance = 98, cars counter = 51. Optimal time = 1.781818.
+237: It is ship: speed = 95, distance = 48, displace = 45, ship kind = tug. Optimal time = 0.505263.
+238: It is plain: speed = 34, distance = 46, fly distance = 44, lifting capacity = 64. Optimal time = 1.294118.
+239: It is train: speed = 74, distance = 40, cars counter = 72. Optimal time = 0.540541.
+240: It is ship: speed = 77, distance = 6, displace = 35, ship kind = liner. Optimal time = 0.077922.
+241: It is ship: speed = 5, distance = 28, displace = 85, ship kind = tug. Optimal time = 5.600000.
+242: It is train: speed = 23, distance = 77, cars counter = 54. Optimal time = 3.347826.
+243: It is ship: speed = 74, distance = 4, displace = 11, ship kind = tanker. Optimal time = 0.054054.
+244: It is train: speed = 55, distance = 55, cars counter = 48. Optimal time = 1.000000.
+245: It is train: speed = 53, distance = 91, cars counter = 55. Optimal time = 1.716981.
+246: It is ship: speed = 16, distance = 95, displace = 85, ship kind = liner. Optimal time = 5.937500.
+247: It is ship: speed = 42, distance = 70, displace = 40, ship kind = tug. Optimal time = 1.666667.
+248: It is ship: speed = 67, distance = 69, displace = 89, ship kind = liner. Optimal time = 1.029851.
+249: It is train: speed = 65, distance = 66, cars counter = 71. Optimal time = 1.015385.
+250: It is plain: speed = 69, distance = 34, fly distance = 10, lifting capacity = 72. Optimal time = 0.144928.
+251: It is train: speed = 16, distance = 19, cars counter = 80. Optimal time = 1.187500.
+252: It is ship: speed = 61, distance = 86, displace = 81, ship kind = tanker. Optimal time = 1.409836.
+253: It is ship: speed = 17, distance = 64, displace = 55, ship kind = tug. Optimal time = 3.764706.
+254: It is plain: speed = 46, distance = 42, fly distance = 58, lifting capacity = 65. Optimal time = 1.260870.
+255: It is plain: speed = 47, distance = 76, fly distance = 57, lifting capacity = 63. Optimal time = 1.212766.
+256: It is ship: speed = 28, distance = 53, displace = 10, ship kind = tug. Optimal time = 1.892857.
+257: It is ship: speed = 33, distance = 52, displace = 29, ship kind = tug. Optimal time = 1.575758.
+258: It is ship: speed = 97, distance = 16, displace = 69, ship kind = tanker. Optimal time = 0.164948.
+259: It is ship: speed = 100, distance = 98, displace = 7, ship kind = liner. Optimal time = 0.980000.
+260: It is train: speed = 39, distance = 52, cars counter = 49. Optimal time = 1.333333.
+261: It is train: speed = 16, distance = 63, cars counter = 47. Optimal time = 3.937500.
+262: It is train: speed = 19, distance = 9, cars counter = 32. Optimal time = 0.473684.
+263: It is ship: speed = 13, distance = 93, displace = 10, ship kind = tanker. Optimal time = 7.153846.
+264: It is ship: speed = 14, distance = 7, displace = 80, ship kind = liner. Optimal time = 0.500000.
+265: It is plain: speed = 96, distance = 68, fly distance = 83, lifting capacity = 39. Optimal time = 0.864583.
+266: It is ship: speed = 80, distance = 98, displace = 25, ship kind = liner. Optimal time = 1.225000.
+267: It is train: speed = 76, distance = 87, cars counter = 36. Optimal time = 1.144737.
+268: It is train: speed = 49, distance = 82, cars counter = 86. Optimal time = 1.673469.
+269: It is train: speed = 43, distance = 69, cars counter = 17. Optimal time = 1.604651.
+270: It is train: speed = 61, distance = 78, cars counter = 85. Optimal time = 1.278689.
+271: It is ship: speed = 91, distance = 91, displace = 69, ship kind = tug. Optimal time = 1.000000.
+272: It is plain: speed = 64, distance = 58, fly distance = 27, lifting capacity = 54. Optimal time = 0.421875.
+273: It is ship: speed = 59, distance = 3, displace = 2, ship kind = tug. Optimal time = 0.050847.
+274: It is train: speed = 29, distance = 83, cars counter = 26. Optimal time = 2.862069.
+275: It is plain: speed = 31, distance = 60, fly distance = 9, lifting capacity = 49. Optimal time = 0.290323.
+276: It is ship: speed = 77, distance = 17, displace = 60, ship kind = tanker. Optimal time = 0.220779.
+277: It is ship: speed = 44, distance = 77, displace = 37, ship kind = tug. Optimal time = 1.750000.
+278: It is train: speed = 27, distance = 78, cars counter = 12. Optimal time = 2.888889.
+279: It is train: speed = 5, distance = 66, cars counter = 13. Optimal time = 13.200000.
+280: It is plain: speed = 68, distance = 14, fly distance = 11, lifting capacity = 10. Optimal time = 0.161765.
+281: It is train: speed = 93, distance = 36, cars counter = 66. Optimal time = 0.387097.
+282: It is plain: speed = 95, distance = 26, fly distance = 75, lifting capacity = 48. Optimal time = 0.789474.
+283: It is ship: speed = 92, distance = 7, displace = 42, ship kind = tanker. Optimal time = 0.076087.
+284: It is plain: speed = 18, distance = 26, fly distance = 36, lifting capacity = 15. Optimal time = 2.000000.
+285: It is ship: speed = 14, distance = 26, displace = 89, ship kind = tug. Optimal time = 1.857143.
+286: It is train: speed = 1, distance = 84, cars counter = 63. Optimal time = 84.000000.
+287: It is train: speed = 46, distance = 72, cars counter = 61. Optimal time = 1.565217.
+288: It is ship: speed = 59, distance = 78, displace = 64, ship kind = tanker. Optimal time = 1.322034.
+289: It is plain: speed = 38, distance = 4, fly distance = 4, lifting capacity = 81. Optimal time = 0.105263.
+290: It is ship: speed = 45, distance = 70, displace = 13, ship kind = tanker. Optimal time = 1.555556.
+291: It is plain: speed = 100, distance = 80, fly distance = 48, lifting capacity = 13. Optimal time = 0.480000.
+292: It is train: speed = 88, distance = 34, cars counter = 100. Optimal time = 0.386364.
+293: It is train: speed = 17, distance = 14, cars counter = 6. Optimal time = 0.823529.
+294: It is ship: speed = 86, distance = 18, displace = 51, ship kind = liner. Optimal time = 0.209302.
+295: It is ship: speed = 66, distance = 1, displace = 97, ship kind = tug. Optimal time = 0.015152.
+296: It is train: speed = 100, distance = 36, cars counter = 66. Optimal time = 0.360000.
+297: It is plain: speed = 6, distance = 30, fly distance = 62, lifting capacity = 1. Optimal time = 10.333333.
+298: It is plain: speed = 41, distance = 100, fly distance = 94, lifting capacity = 50. Optimal time = 2.292683.
+299: It is plain: speed = 28, distance = 2, fly distance = 78, lifting capacity = 44. Optimal time = 2.785714.
+300: It is plain: speed = 36, distance = 58, fly distance = 52, lifting capacity = 53. Optimal time = 1.444444.
+301: It is plain: speed = 48, distance = 100, fly distance = 26, lifting capacity = 100. Optimal time = 0.541667.
+302: It is plain: speed = 81, distance = 3, fly distance = 48, lifting capacity = 68. Optimal time = 0.592593.
+303: It is plain: speed = 95, distance = 73, fly distance = 50, lifting capacity = 56. Optimal time = 0.526316.
+304: It is train: speed = 79, distance = 49, cars counter = 24. Optimal time = 0.620253.
+305: It is train: speed = 98, distance = 62, cars counter = 100. Optimal time = 0.632653.
+306: It is plain: speed = 92, distance = 95, fly distance = 66, lifting capacity = 79. Optimal time = 0.717391.
+307: It is train: speed = 17, distance = 31, cars counter = 16. Optimal time = 1.823529.
+308: It is train: speed = 30, distance = 93, cars counter = 15. Optimal time = 3.100000.
+309: It is plain: speed = 25, distance = 70, fly distance = 25, lifting capacity = 92. Optimal time = 1.000000.
+310: It is plain: speed = 19, distance = 65, fly distance = 39, lifting capacity = 27. Optimal time = 2.052632.
+311: It is ship: speed = 70, distance = 75, displace = 65, ship kind = liner. Optimal time = 1.071429.
+312: It is plain: speed = 26, distance = 93, fly distance = 75, lifting capacity = 69. Optimal time = 2.884615.
+313: It is plain: speed = 40, distance = 47, fly distance = 43, lifting capacity = 8. Optimal time = 1.075000.
+314: It is plain: speed = 10, distance = 76, fly distance = 59, lifting capacity = 2. Optimal time = 5.900000.
+315: It is plain: speed = 88, distance = 26, fly distance = 59, lifting capacity = 12. Optimal time = 0.670455.
+316: It is ship: speed = 100, distance = 31, displace = 33, ship kind = liner. Optimal time = 0.310000.
+317: It is plain: speed = 22, distance = 8, fly distance = 83, lifting capacity = 38. Optimal time = 3.772727.
+318: It is train: speed = 6, distance = 15, cars counter = 45. Optimal time = 2.500000.
+319: It is ship: speed = 84, distance = 83, displace = 71, ship kind = liner. Optimal time = 0.988095.
+320: It is ship: speed = 31, distance = 59, displace = 86, ship kind = liner. Optimal time = 1.903226.
+321: It is train: speed = 87, distance = 95, cars counter = 57. Optimal time = 1.091954.
+322: It is plain: speed = 6, distance = 21, fly distance = 81, lifting capacity = 57. Optimal time = 13.500000.
+323: It is plain: speed = 13, distance = 95, fly distance = 11, lifting capacity = 86. Optimal time = 0.846154.
+324: It is plain: speed = 93, distance = 23, fly distance = 6, lifting capacity = 50. Optimal time = 0.064516.
+325: It is ship: speed = 50, distance = 82, displace = 21, ship kind = tug. Optimal time = 1.640000.
+326: It is train: speed = 2, distance = 61, cars counter = 34. Optimal time = 30.500000.
+327: It is train: speed = 99, distance = 91, cars counter = 82. Optimal time = 0.919192.
+328: It is train: speed = 38, distance = 90, cars counter = 49. Optimal time = 2.368421.
+329: It is ship: speed = 10, distance = 81, displace = 51, ship kind = liner. Optimal time = 8.100000.
+330: It is plain: speed = 98, distance = 22, fly distance = 79, lifting capacity = 51. Optimal time = 0.806122.
+331: It is plain: speed = 53, distance = 9, fly distance = 16, lifting capacity = 90. Optimal time = 0.301887.
+332: It is train: speed = 49, distance = 62, cars counter = 94. Optimal time = 1.265306.
+333: It is train: speed = 64, distance = 7, cars counter = 90. Optimal time = 0.109375.
+334: It is train: speed = 5, distance = 80, cars counter = 57. Optimal time = 16.000000.
+335: It is ship: speed = 17, distance = 46, displace = 41, ship kind = tanker. Optimal time = 2.705882.
+336: It is ship: speed = 73, distance = 62, displace = 19, ship kind = liner. Optimal time = 0.849315.
+337: It is ship: speed = 41, distance = 96, displace = 61, ship kind = tug. Optimal time = 2.341463.
+338: It is train: speed = 69, distance = 25, cars counter = 90. Optimal time = 0.362319.
+339: It is train: speed = 73, distance = 3, cars counter = 24. Optimal time = 0.041096.
+340: It is ship: speed = 66, distance = 30, displace = 18, ship kind = liner. Optimal time = 0.454545.
+341: It is ship: speed = 49, distance = 1, displace = 27, ship kind = liner. Optimal time = 0.020408.
+342: It is plain: speed = 19, distance = 28, fly distance = 6, lifting capacity = 92. Optimal time = 0.315789.
+343: It is ship: speed = 24, distance = 9, displace = 51, ship kind = tug. Optimal time = 0.375000.
+344: It is ship: speed = 64, distance = 26, displace = 55, ship kind = liner. Optimal time = 0.406250.
+345: It is ship: speed = 44, distance = 62, displace = 23, ship kind = liner. Optimal time = 1.409091.
+346: It is ship: speed = 3, distance = 64, displace = 67, ship kind = tanker. Optimal time = 21.333333.
+347: It is plain: speed = 53, distance = 68, fly distance = 9, lifting capacity = 31. Optimal time = 0.169811.
+348: It is train: speed = 7, distance = 49, cars counter = 13. Optimal time = 7.000000.
+349: It is plain: speed = 92, distance = 5, fly distance = 88, lifting capacity = 100. Optimal time = 0.956522.
+350: It is ship: speed = 55, distance = 55, displace = 19, ship kind = tanker. Optimal time = 1.000000.
+351: It is train: speed = 54, distance = 30, cars counter = 5. Optimal time = 0.555556.
+352: It is train: speed = 4, distance = 3, cars counter = 53. Optimal time = 0.750000.
+353: It is plain: speed = 19, distance = 19, fly distance = 77, lifting capacity = 27. Optimal time = 4.052632.
+354: It is ship: speed = 96, distance = 87, displace = 53, ship kind = liner. Optimal time = 0.906250.
+355: It is train: speed = 54, distance = 45, cars counter = 57. Optimal time = 0.833333.
+356: It is plain: speed = 1, distance = 96, fly distance = 97, lifting capacity = 56. Optimal time = 97.000000.
+357: It is plain: speed = 3, distance = 26, fly distance = 82, lifting capacity = 64. Optimal time = 27.333333.
+358: It is ship: speed = 63, distance = 69, displace = 47, ship kind = liner. Optimal time = 1.095238.
+359: It is ship: speed = 51, distance = 23, displace = 93, ship kind = liner. Optimal time = 0.450980.
+360: It is plain: speed = 19, distance = 44, fly distance = 47, lifting capacity = 58. Optimal time = 2.473684.
+361: It is plain: speed = 79, distance = 51, fly distance = 1, lifting capacity = 75. Optimal time = 0.012658.
+362: It is ship: speed = 98, distance = 75, displace = 55, ship kind = tug. Optimal time = 0.765306.
+363: It is ship: speed = 57, distance = 48, displace = 60, ship kind = liner. Optimal time = 0.842105.
+364: It is plain: speed = 91, distance = 53, fly distance = 32, lifting capacity = 89. Optimal time = 0.351648.
+365: It is train: speed = 54, distance = 91, cars counter = 93. Optimal time = 1.685185.
+366: It is ship: speed = 12, distance = 43, displace = 17, ship kind = tug. Optimal time = 3.583333.
+367: It is ship: speed = 26, distance = 6, displace = 71, ship kind = tug. Optimal time = 0.230769.
+368: It is train: speed = 45, distance = 87, cars counter = 56. Optimal time = 1.933333.
+369: It is plain: speed = 93, distance = 1, fly distance = 6, lifting capacity = 1. Optimal time = 0.064516.
+370: It is plain: speed = 65, distance = 90, fly distance = 11, lifting capacity = 8. Optimal time = 0.169231.
+371: It is plain: speed = 42, distance = 48, fly distance = 12, lifting capacity = 48. Optimal time = 0.285714.
+372: It is plain: speed = 56, distance = 46, fly distance = 2, lifting capacity = 50. Optimal time = 0.035714.
+373: It is ship: speed = 8, distance = 91, displace = 40, ship kind = tanker. Optimal time = 11.375000.
+374: It is train: speed = 67, distance = 71, cars counter = 58. Optimal time = 1.059701.
+375: It is ship: speed = 78, distance = 81, displace = 97, ship kind = liner. Optimal time = 1.038462.
+376: It is ship: speed = 97, distance = 78, displace = 2, ship kind = liner. Optimal time = 0.804124.
+377: It is train: speed = 9, distance = 28, cars counter = 82. Optimal time = 3.111111.
+378: It is plain: speed = 91, distance = 29, fly distance = 95, lifting capacity = 46. Optimal time = 1.043956.
+379: It is ship: speed = 96, distance = 96, displace = 39, ship kind = tug. Optimal time = 1.000000.
+380: It is ship: speed = 30, distance = 19, displace = 50, ship kind = tug. Optimal time = 0.633333.
+381: It is plain: speed = 59, distance = 1, fly distance = 19, lifting capacity = 39. Optimal time = 0.322034.
+382: It is ship: speed = 49, distance = 24, displace = 46, ship kind = liner. Optimal time = 0.489796.
+383: It is ship: speed = 32, distance = 65, displace = 86, ship kind = liner. Optimal time = 2.031250.
+384: It is ship: speed = 42, distance = 54, displace = 78, ship kind = tug. Optimal time = 1.285714.
+385: It is train: speed = 3, distance = 35, cars counter = 47. Optimal time = 11.666667.
+386: It is train: speed = 89, distance = 36, cars counter = 75. Optimal time = 0.404494.
+387: It is plain: speed = 85, distance = 71, fly distance = 1, lifting capacity = 96. Optimal time = 0.011765.
+388: It is plain: speed = 71, distance = 34, fly distance = 73, lifting capacity = 71. Optimal time = 1.028169.
+389: It is train: speed = 18, distance = 48, cars counter = 87. Optimal time = 2.666667.
+390: It is ship: speed = 65, distance = 24, displace = 65, ship kind = tanker. Optimal time = 0.369231.
+391: It is plain: speed = 18, distance = 92, fly distance = 5, lifting capacity = 69. Optimal time = 0.277778.
+392: It is train: speed = 40, distance = 67, cars counter = 91. Optimal time = 1.675000.
+393: It is ship: speed = 2, distance = 66, displace = 91, ship kind = liner. Optimal time = 33.000000.
+394: It is plain: speed = 43, distance = 34, fly distance = 11, lifting capacity = 66. Optimal time = 0.255814.
+395: It is train: speed = 83, distance = 36, cars counter = 80. Optimal time = 0.433735.
+396: It is ship: speed = 36, distance = 18, displace = 54, ship kind = tug. Optimal time = 0.500000.
+397: It is plain: speed = 70, distance = 13, fly distance = 59, lifting capacity = 87. Optimal time = 0.842857.
+398: It is ship: speed = 15, distance = 8, displace = 2, ship kind = liner. Optimal time = 0.533333.
+399: It is ship: speed = 92, distance = 38, displace = 76, ship kind = liner. Optimal time = 0.413043.
+400: It is train: speed = 66, distance = 45, cars counter = 71. Optimal time = 0.681818.
+401: It is plain: speed = 55, distance = 88, fly distance = 21, lifting capacity = 90. Optimal time = 0.381818.
+402: It is ship: speed = 1, distance = 42, displace = 10, ship kind = tug. Optimal time = 42.000000.
+403: It is ship: speed = 61, distance = 11, displace = 68, ship kind = tanker. Optimal time = 0.180328.
+404: It is plain: speed = 54, distance = 81, fly distance = 36, lifting capacity = 13. Optimal time = 0.666667.
+405: It is train: speed = 41, distance = 87, cars counter = 26. Optimal time = 2.121951.
+406: It is plain: speed = 14, distance = 34, fly distance = 58, lifting capacity = 79. Optimal time = 4.142857.
+407: It is plain: speed = 80, distance = 29, fly distance = 85, lifting capacity = 67. Optimal time = 1.062500.
+408: It is train: speed = 26, distance = 41, cars counter = 1. Optimal time = 1.576923.
+409: It is train: speed = 51, distance = 71, cars counter = 17. Optimal time = 1.392157.
+410: It is ship: speed = 33, distance = 84, displace = 36, ship kind = liner. Optimal time = 2.545455.
+411: It is ship: speed = 17, distance = 41, displace = 2, ship kind = tanker. Optimal time = 2.411765.
+412: It is plain: speed = 88, distance = 27, fly distance = 63, lifting capacity = 53. Optimal time = 0.715909.
+413: It is train: speed = 72, distance = 31, cars counter = 42. Optimal time = 0.430556.
+414: It is plain: speed = 11, distance = 78, fly distance = 17, lifting capacity = 11. Optimal time = 1.545455.
+415: It is plain: speed = 9, distance = 12, fly distance = 73, lifting capacity = 59. Optimal time = 8.111111.
+416: It is train: speed = 89, distance = 70, cars counter = 18. Optimal time = 0.786517.
+417: It is plain: speed = 5, distance = 23, fly distance = 13, lifting capacity = 73. Optimal time = 2.600000.
+418: It is plain: speed = 14, distance = 75, fly distance = 48, lifting capacity = 53. Optimal time = 3.428571.
+419: It is ship: speed = 62, distance = 5, displace = 65, ship kind = liner. Optimal time = 0.080645.
+420: It is plain: speed = 7, distance = 35, fly distance = 97, lifting capacity = 84. Optimal time = 13.857143.
+421: It is plain: speed = 7, distance = 39, fly distance = 11, lifting capacity = 70. Optimal time = 1.571429.
+422: It is ship: speed = 70, distance = 3, displace = 52, ship kind = tug. Optimal time = 0.042857.
+423: It is plain: speed = 75, distance = 47, fly distance = 43, lifting capacity = 87. Optimal time = 0.573333.
+424: It is ship: speed = 58, distance = 100, displace = 94, ship kind = liner. Optimal time = 1.724138.
+425: It is train: speed = 98, distance = 70, cars counter = 8. Optimal time = 0.714286.
+426: It is plain: speed = 2, distance = 94, fly distance = 21, lifting capacity = 88. Optimal time = 10.500000.
+427: It is plain: speed = 4, distance = 90, fly distance = 49, lifting capacity = 94. Optimal time = 12.250000.
+428: It is train: speed = 70, distance = 57, cars counter = 73. Optimal time = 0.814286.
+429: It is train: speed = 8, distance = 63, cars counter = 45. Optimal time = 7.875000.
+430: It is train: speed = 10, distance = 39, cars counter = 69. Optimal time = 3.900000.
+431: It is plain: speed = 48, distance = 20, fly distance = 26, lifting capacity = 4. Optimal time = 0.541667.
+432: It is plain: speed = 23, distance = 73, fly distance = 83, lifting capacity = 85. Optimal time = 3.608696.
+433: It is ship: speed = 29, distance = 5, displace = 65, ship kind = tug. Optimal time = 0.172414.
+434: It is train: speed = 6, distance = 70, cars counter = 54. Optimal time = 11.666667.
+435: It is train: speed = 40, distance = 10, cars counter = 30. Optimal time = 0.250000.
+436: It is train: speed = 69, distance = 45, cars counter = 8. Optimal time = 0.652174.
+437: It is plain: speed = 54, distance = 98, fly distance = 19, lifting capacity = 34. Optimal time = 0.351852.
+438: It is train: speed = 90, distance = 59, cars counter = 1. Optimal time = 0.655556.
+439: It is ship: speed = 81, distance = 74, displace = 48, ship kind = liner. Optimal time = 0.913580.
+440: It is plain: speed = 28, distance = 22, fly distance = 16, lifting capacity = 97. Optimal time = 0.571429.
+441: It is train: speed = 21, distance = 19, cars counter = 88. Optimal time = 0.904762.
+442: It is plain: speed = 58, distance = 49, fly distance = 12, lifting capacity = 21. Optimal time = 0.206897.
+443: It is plain: speed = 56, distance = 80, fly distance = 68, lifting capacity = 9. Optimal time = 1.214286.
+444: It is ship: speed = 38, distance = 94, displace = 22, ship kind = tug. Optimal time = 2.473684.
+445: It is train: speed = 23, distance = 44, cars counter = 84. Optimal time = 1.913043.
+446: It is plain: speed = 91, distance = 1, fly distance = 50, lifting capacity = 70. Optimal time = 0.549451.
+447: It is ship: speed = 65, distance = 66, displace = 8, ship kind = tanker. Optimal time = 1.015385.
+448: It is plain: speed = 95, distance = 19, fly distance = 93, lifting capacity = 96. Optimal time = 0.978947.
+449: It is plain: speed = 65, distance = 65, fly distance = 85, lifting capacity = 44. Optimal time = 1.307692.
+450: It is plain: speed = 93, distance = 21, fly distance = 73, lifting capacity = 86. Optimal time = 0.784946.
+451: It is train: speed = 51, distance = 89, cars counter = 16. Optimal time = 1.745098.
+452: It is train: speed = 73, distance = 15, cars counter = 36. Optimal time = 0.205479.
+453: It is train: speed = 65, distance = 5, cars counter = 47. Optimal time = 0.076923.
+454: It is plain: speed = 23, distance = 55, fly distance = 18, lifting capacity = 58. Optimal time = 0.782609.
+455: It is train: speed = 89, distance = 3, cars counter = 48. Optimal time = 0.033708.
+456: It is plain: speed = 67, distance = 12, fly distance = 3, lifting capacity = 11. Optimal time = 0.044776.
+457: It is ship: speed = 47, distance = 83, displace = 67, ship kind = liner. Optimal time = 1.765957.
+458: It is train: speed = 70, distance = 73, cars counter = 44. Optimal time = 1.042857.
+459: It is plain: speed = 45, distance = 58, fly distance = 99, lifting capacity = 70. Optimal time = 2.200000.
+460: It is ship: speed = 55, distance = 16, displace = 55, ship kind = tanker. Optimal time = 0.290909.
+461: It is train: speed = 24, distance = 87, cars counter = 23. Optimal time = 3.625000.
+462: It is plain: speed = 89, distance = 70, fly distance = 30, lifting capacity = 55. Optimal time = 0.337079.
+463: It is train: speed = 84, distance = 17, cars counter = 28. Optimal time = 0.202381.
+464: It is plain: speed = 99, distance = 47, fly distance = 14, lifting capacity = 27. Optimal time = 0.141414.
+465: It is train: speed = 87, distance = 22, cars counter = 30. Optimal time = 0.252874.
+466: It is ship: speed = 79, distance = 80, displace = 52, ship kind = tanker. Optimal time = 1.012658.
+467: It is ship: speed = 68, distance = 59, displace = 11, ship kind = tanker. Optimal time = 0.867647.
+468: It is train: speed = 49, distance = 63, cars counter = 94. Optimal time = 1.285714.
+469: It is train: speed = 85, distance = 75, cars counter = 44. Optimal time = 0.882353.
+470: It is plain: speed = 58, distance = 60, fly distance = 97, lifting capacity = 87. Optimal time = 1.672414.
+471: It is ship: speed = 95, distance = 1, displace = 37, ship kind = tanker. Optimal time = 0.010526.
+472: It is plain: speed = 58, distance = 92, fly distance = 21, lifting capacity = 88. Optimal time = 0.362069.
+473: It is ship: speed = 73, distance = 92, displace = 57, ship kind = tanker. Optimal time = 1.260274.
+474: It is ship: speed = 20, distance = 32, displace = 32, ship kind = tanker. Optimal time = 1.600000.
+475: It is ship: speed = 77, distance = 5, displace = 83, ship kind = liner. Optimal time = 0.064935.
+476: It is plain: speed = 100, distance = 8, fly distance = 59, lifting capacity = 48. Optimal time = 0.590000.
+477: It is train: speed = 69, distance = 43, cars counter = 46. Optimal time = 0.623188.
+478: It is plain: speed = 56, distance = 36, fly distance = 14, lifting capacity = 99. Optimal time = 0.250000.
+479: It is plain: speed = 54, distance = 22, fly distance = 81, lifting capacity = 45. Optimal time = 1.500000.
+480: It is plain: speed = 24, distance = 95, fly distance = 97, lifting capacity = 7. Optimal time = 4.041667.
+481: It is plain: speed = 65, distance = 53, fly distance = 54, lifting capacity = 21. Optimal time = 0.830769.
+482: It is ship: speed = 4, distance = 20, displace = 86, ship kind = tanker. Optimal time = 5.000000.
+483: It is plain: speed = 34, distance = 56, fly distance = 47, lifting capacity = 28. Optimal time = 1.382353.
+484: It is plain: speed = 3, distance = 83, fly distance = 41, lifting capacity = 69. Optimal time = 13.666667.
+485: It is train: speed = 49, distance = 22, cars counter = 3. Optimal time = 0.448980.
+486: It is ship: speed = 18, distance = 80, displace = 4, ship kind = tug. Optimal time = 4.444444.
+487: It is ship: speed = 11, distance = 41, displace = 45, ship kind = liner. Optimal time = 3.727273.
+488: It is train: speed = 65, distance = 2, cars counter = 49. Optimal time = 0.030769.
+489: It is plain: speed = 87, distance = 11, fly distance = 13, lifting capacity = 72. Optimal time = 0.149425.
+490: It is train: speed = 11, distance = 99, cars counter = 24. Optimal time = 9.000000.
+491: It is ship: speed = 34, distance = 64, displace = 34, ship kind = liner. Optimal time = 1.882353.
+492: It is train: speed = 7, distance = 69, cars counter = 93. Optimal time = 9.857143.
+493: It is plain: speed = 100, distance = 97, fly distance = 88, lifting capacity = 28. Optimal time = 0.880000.
+494: It is ship: speed = 80, distance = 24, displace = 73, ship kind = tanker. Optimal time = 0.300000.
+495: It is train: speed = 74, distance = 74, cars counter = 75. Optimal time = 1.000000.
+496: It is train: speed = 37, distance = 88, cars counter = 84. Optimal time = 2.378378.
+497: It is train: speed = 50, distance = 35, cars counter = 30. Optimal time = 0.700000.
+498: It is plain: speed = 68, distance = 45, fly distance = 48, lifting capacity = 34. Optimal time = 0.705882.
+499: It is plain: speed = 54, distance = 54, fly distance = 2, lifting capacity = 30. Optimal time = 0.037037.
+500: It is ship: speed = 98, distance = 17, displace = 33, ship kind = tanker. Optimal time = 0.173469.
+501: It is plain: speed = 56, distance = 28, fly distance = 73, lifting capacity = 48. Optimal time = 1.303571.
+502: It is plain: speed = 99, distance = 22, fly distance = 66, lifting capacity = 35. Optimal time = 0.666667.
+503: It is train: speed = 1, distance = 41, cars counter = 11. Optimal time = 41.000000.
+504: It is plain: speed = 22, distance = 25, fly distance = 54, lifting capacity = 66. Optimal time = 2.454545.
+505: It is train: speed = 39, distance = 23, cars counter = 78. Optimal time = 0.589744.
+506: It is ship: speed = 24, distance = 7, displace = 45, ship kind = tug. Optimal time = 0.291667.
+507: It is plain: speed = 29, distance = 80, fly distance = 23, lifting capacity = 36. Optimal time = 0.793103.
+508: It is ship: speed = 95, distance = 83, displace = 12, ship kind = liner. Optimal time = 0.873684.
+509: It is ship: speed = 29, distance = 79, displace = 65, ship kind = tug. Optimal time = 2.724138.
+510: It is train: speed = 27, distance = 68, cars counter = 92. Optimal time = 2.518519.
+511: It is train: speed = 22, distance = 58, cars counter = 76. Optimal time = 2.636364.
+512: It is plain: speed = 32, distance = 53, fly distance = 4, lifting capacity = 7. Optimal time = 0.125000.
+513: It is plain: speed = 100, distance = 79, fly distance = 86, lifting capacity = 80. Optimal time = 0.860000.
+514: It is train: speed = 8, distance = 15, cars counter = 16. Optimal time = 1.875000.
+515: It is plain: speed = 98, distance = 80, fly distance = 47, lifting capacity = 2. Optimal time = 0.479592.
+516: It is plain: speed = 26, distance = 18, fly distance = 41, lifting capacity = 96. Optimal time = 1.576923.
+517: It is train: speed = 9, distance = 88, cars counter = 48. Optimal time = 9.777778.
+518: It is plain: speed = 45, distance = 75, fly distance = 93, lifting capacity = 76. Optimal time = 2.066667.
+519: It is plain: speed = 96, distance = 82, fly distance = 38, lifting capacity = 47. Optimal time = 0.395833.
+520: It is plain: speed = 76, distance = 26, fly distance = 21, lifting capacity = 83. Optimal time = 0.276316.
+521: It is ship: speed = 88, distance = 85, displace = 38, ship kind = tug. Optimal time = 0.965909.
+522: It is plain: speed = 91, distance = 79, fly distance = 9, lifting capacity = 60. Optimal time = 0.098901.
+523: It is train: speed = 4, distance = 8, cars counter = 27. Optimal time = 2.000000.
+524: It is train: speed = 55, distance = 8, cars counter = 87. Optimal time = 0.145455.
+525: It is plain: speed = 1, distance = 14, fly distance = 60, lifting capacity = 48. Optimal time = 60.000000.
+526: It is ship: speed = 49, distance = 95, displace = 10, ship kind = liner. Optimal time = 1.938776.
+527: It is ship: speed = 30, distance = 7, displace = 12, ship kind = tug. Optimal time = 0.233333.
+528: It is train: speed = 1, distance = 88, cars counter = 26. Optimal time = 88.000000.
+529: It is train: speed = 66, distance = 86, cars counter = 55. Optimal time = 1.303030.
+530: It is train: speed = 90, distance = 62, cars counter = 63. Optimal time = 0.688889.
+531: It is ship: speed = 69, distance = 71, displace = 71, ship kind = tug. Optimal time = 1.028986.
+532: It is ship: speed = 36, distance = 8, displace = 18, ship kind = tanker. Optimal time = 0.222222.
+533: It is plain: speed = 12, distance = 92, fly distance = 32, lifting capacity = 84. Optimal time = 2.666667.
+534: It is ship: speed = 38, distance = 47, displace = 43, ship kind = liner. Optimal time = 1.236842.
+535: It is plain: speed = 82, distance = 10, fly distance = 90, lifting capacity = 48. Optimal time = 1.097561.
+536: It is plain: speed = 96, distance = 84, fly distance = 37, lifting capacity = 58. Optimal time = 0.385417.
+537: It is train: speed = 20, distance = 26, cars counter = 16. Optimal time = 1.300000.
+538: It is plain: speed = 26, distance = 38, fly distance = 78, lifting capacity = 34. Optimal time = 3.000000.
+539: It is ship: speed = 60, distance = 42, displace = 19, ship kind = liner. Optimal time = 0.700000.
+540: It is train: speed = 54, distance = 28, cars counter = 15. Optimal time = 0.518519.
+541: It is train: speed = 22, distance = 47, cars counter = 100. Optimal time = 2.136364.
+542: It is train: speed = 8, distance = 41, cars counter = 3. Optimal time = 5.125000.
+543: It is plain: speed = 37, distance = 38, fly distance = 91, lifting capacity = 46. Optimal time = 2.459459.
+544: It is ship: speed = 11, distance = 71, displace = 51, ship kind = tug. Optimal time = 6.454545.
+545: It is plain: speed = 40, distance = 29, fly distance = 33, lifting capacity = 95. Optimal time = 0.825000.
+546: It is train: speed = 26, distance = 66, cars counter = 95. Optimal time = 2.538462.
+547: It is plain: speed = 71, distance = 22, fly distance = 65, lifting capacity = 23. Optimal time = 0.915493.
+548: It is ship: speed = 63, distance = 22, displace = 47, ship kind = tug. Optimal time = 0.349206.
+549: It is plain: speed = 1, distance = 25, fly distance = 51, lifting capacity = 38. Optimal time = 51.000000.
+550: It is plain: speed = 48, distance = 72, fly distance = 77, lifting capacity = 70. Optimal time = 1.604167.
+551: It is ship: speed = 81, distance = 17, displace = 14, ship kind = tug. Optimal time = 0.209877.
+552: It is ship: speed = 60, distance = 1, displace = 75, ship kind = tug. Optimal time = 0.016667.
+553: It is ship: speed = 25, distance = 48, displace = 68, ship kind = tanker. Optimal time = 1.920000.
+554: It is train: speed = 11, distance = 3, cars counter = 44. Optimal time = 0.272727.
+555: It is plain: speed = 25, distance = 58, fly distance = 9, lifting capacity = 1. Optimal time = 0.360000.
+556: It is plain: speed = 98, distance = 15, fly distance = 7, lifting capacity = 70. Optimal time = 0.071429.
+557: It is ship: speed = 76, distance = 43, displace = 24, ship kind = tanker. Optimal time = 0.565789.
+558: It is ship: speed = 84, distance = 93, displace = 16, ship kind = liner. Optimal time = 1.107143.
+559: It is ship: speed = 92, distance = 82, displace = 44, ship kind = tug. Optimal time = 0.891304.
+560: It is ship: speed = 85, distance = 61, displace = 60, ship kind = liner. Optimal time = 0.717647.
+561: It is train: speed = 21, distance = 15, cars counter = 13. Optimal time = 0.714286.
+562: It is plain: speed = 15, distance = 72, fly distance = 79, lifting capacity = 82. Optimal time = 5.266667.
+563: It is plain: speed = 48, distance = 25, fly distance = 5, lifting capacity = 42. Optimal time = 0.104167.
+564: It is plain: speed = 48, distance = 98, fly distance = 83, lifting capacity = 41. Optimal time = 1.729167.
+565: It is ship: speed = 19, distance = 60, displace = 8, ship kind = tug. Optimal time = 3.157895.
+566: It is train: speed = 99, distance = 49, cars counter = 91. Optimal time = 0.494949.
+567: It is ship: speed = 61, distance = 82, displace = 66, ship kind = liner. Optimal time = 1.344262.
+568: It is plain: speed = 78, distance = 13, fly distance = 11, lifting capacity = 1. Optimal time = 0.141026.
+569: It is train: speed = 44, distance = 30, cars counter = 38. Optimal time = 0.681818.
+570: It is ship: speed = 86, distance = 80, displace = 67, ship kind = tug. Optimal time = 0.930233.
+571: It is ship: speed = 49, distance = 77, displace = 45, ship kind = tug. Optimal time = 1.571429.
+572: It is train: speed = 52, distance = 19, cars counter = 43. Optimal time = 0.365385.
+573: It is ship: speed = 19, distance = 33, displace = 64, ship kind = tug. Optimal time = 1.736842.
+574: It is ship: speed = 29, distance = 63, displace = 62, ship kind = tug. Optimal time = 2.172414.
+575: It is train: speed = 24, distance = 58, cars counter = 66. Optimal time = 2.416667.
+576: It is train: speed = 39, distance = 56, cars counter = 86. Optimal time = 1.435897.
+577: It is train: speed = 87, distance = 52, cars counter = 61. Optimal time = 0.597701.
+578: It is plain: speed = 52, distance = 37, fly distance = 11, lifting capacity = 71. Optimal time = 0.211538.
+579: It is ship: speed = 14, distance = 89, displace = 19, ship kind = tug. Optimal time = 6.357143.
+580: It is train: speed = 51, distance = 31, cars counter = 38. Optimal time = 0.607843.
+581: It is ship: speed = 60, distance = 100, displace = 78, ship kind = liner. Optimal time = 1.666667.
+582: It is plain: speed = 1, distance = 27, fly distance = 93, lifting capacity = 19. Optimal time = 93.000000.
+583: It is ship: speed = 48, distance = 4, displace = 93, ship kind = tanker. Optimal time = 0.083333.
+584: It is train: speed = 5, distance = 52, cars counter = 6. Optimal time = 10.400000.
+585: It is plain: speed = 62, distance = 28, fly distance = 69, lifting capacity = 75. Optimal time = 1.112903.
+586: It is train: speed = 87, distance = 42, cars counter = 75. Optimal time = 0.482759.
+587: It is plain: speed = 73, distance = 64, fly distance = 6, lifting capacity = 84. Optimal time = 0.082192.
+588: It is plain: speed = 35, distance = 52, fly distance = 90, lifting capacity = 87. Optimal time = 2.571429.
+589: It is plain: speed = 34, distance = 5, fly distance = 47, lifting capacity = 33. Optimal time = 1.382353.
+590: It is ship: speed = 91, distance = 18, displace = 14, ship kind = tanker. Optimal time = 0.197802.
+591: It is plain: speed = 71, distance = 87, fly distance = 30, lifting capacity = 99. Optimal time = 0.422535.
+592: It is ship: speed = 56, distance = 66, displace = 94, ship kind = tanker. Optimal time = 1.178571.
+593: It is train: speed = 83, distance = 22, cars counter = 3. Optimal time = 0.265060.
+594: It is train: speed = 5, distance = 18, cars counter = 26. Optimal time = 3.600000.
+595: It is ship: speed = 59, distance = 12, displace = 86, ship kind = tanker. Optimal time = 0.203390.
+596: It is ship: speed = 32, distance = 24, displace = 27, ship kind = tug. Optimal time = 0.750000.
+597: It is plain: speed = 92, distance = 68, fly distance = 13, lifting capacity = 63. Optimal time = 0.141304.
+598: It is plain: speed = 94, distance = 13, fly distance = 61, lifting capacity = 49. Optimal time = 0.648936.
+599: It is plain: speed = 55, distance = 98, fly distance = 18, lifting capacity = 89. Optimal time = 0.327273.
+600: It is train: speed = 72, distance = 81, cars counter = 23. Optimal time = 1.125000.
+601: It is ship: speed = 6, distance = 79, displace = 99, ship kind = tug. Optimal time = 13.166667.
+602: It is train: speed = 90, distance = 37, cars counter = 47. Optimal time = 0.411111.
+603: It is ship: speed = 16, distance = 68, displace = 9, ship kind = tug. Optimal time = 4.250000.
+604: It is ship: speed = 21, distance = 69, displace = 40, ship kind = tanker. Optimal time = 3.285714.
+605: It is plain: speed = 1, distance = 63, fly distance = 59, lifting capacity = 7. Optimal time = 59.000000.
+606: It is plain: speed = 28, distance = 95, fly distance = 79, lifting capacity = 51. Optimal time = 2.821429.
+607: It is plain: speed = 53, distance = 40, fly distance = 33, lifting capacity = 31. Optimal time = 0.622642.
+608: It is plain: speed = 2, distance = 94, fly distance = 80, lifting capacity = 90. Optimal time = 40.000000.
+609: It is train: speed = 96, distance = 5, cars counter = 59. Optimal time = 0.052083.
+610: It is ship: speed = 64, distance = 45, displace = 25, ship kind = tanker. Optimal time = 0.703125.
+611: It is train: speed = 39, distance = 65, cars counter = 37. Optimal time = 1.666667.
+612: It is ship: speed = 75, distance = 43, displace = 64, ship kind = liner. Optimal time = 0.573333.
+613: It is ship: speed = 94, distance = 4, displace = 16, ship kind = tanker. Optimal time = 0.042553.
+614: It is ship: speed = 48, distance = 77, displace = 85, ship kind = tug. Optimal time = 1.604167.
+615: It is ship: speed = 16, distance = 90, displace = 14, ship kind = tanker. Optimal time = 5.625000.
+616: It is ship: speed = 73, distance = 67, displace = 10, ship kind = liner. Optimal time = 0.917808.
+617: It is ship: speed = 93, distance = 5, displace = 34, ship kind = liner. Optimal time = 0.053763.
+618: It is ship: speed = 86, distance = 35, displace = 35, ship kind = tug. Optimal time = 0.406977.
+619: It is train: speed = 76, distance = 95, cars counter = 92. Optimal time = 1.250000.
+620: It is train: speed = 41, distance = 38, cars counter = 90. Optimal time = 0.926829.
+621: It is plain: speed = 22, distance = 42, fly distance = 43, lifting capacity = 89. Optimal time = 1.954545.
+622: It is ship: speed = 57, distance = 100, displace = 29, ship kind = liner. Optimal time = 1.754386.
+623: It is plain: speed = 90, distance = 49, fly distance = 61, lifting capacity = 35. Optimal time = 0.677778.
+624: It is plain: speed = 94, distance = 43, fly distance = 46, lifting capacity = 31. Optimal time = 0.489362.
+625: It is plain: speed = 33, distance = 84, fly distance = 17, lifting capacity = 8. Optimal time = 0.515152.
+626: It is plain: speed = 60, distance = 50, fly distance = 70, lifting capacity = 98. Optimal time = 1.166667.
+627: It is plain: speed = 90, distance = 71, fly distance = 80, lifting capacity = 33. Optimal time = 0.888889.
+628: It is plain: speed = 62, distance = 41, fly distance = 11, lifting capacity = 43. Optimal time = 0.177419.
+629: It is train: speed = 28, distance = 84, cars counter = 21. Optimal time = 3.000000.
+630: It is ship: speed = 18, distance = 26, displace = 86, ship kind = tug. Optimal time = 1.444444.
+631: It is plain: speed = 69, distance = 90, fly distance = 56, lifting capacity = 52. Optimal time = 0.811594.
+632: It is train: speed = 63, distance = 81, cars counter = 18. Optimal time = 1.285714.
+633: It is train: speed = 50, distance = 15, cars counter = 2. Optimal time = 0.300000.
+634: It is train: speed = 37, distance = 33, cars counter = 75. Optimal time = 0.891892.
+635: It is plain: speed = 46, distance = 15, fly distance = 6, lifting capacity = 40. Optimal time = 0.130435.
+636: It is plain: speed = 86, distance = 24, fly distance = 60, lifting capacity = 26. Optimal time = 0.697674.
+637: It is ship: speed = 37, distance = 63, displace = 5, ship kind = liner. Optimal time = 1.702703.
+638: It is train: speed = 94, distance = 67, cars counter = 82. Optimal time = 0.712766.
+639: It is train: speed = 81, distance = 14, cars counter = 21. Optimal time = 0.172840.
+640: It is ship: speed = 63, distance = 35, displace = 97, ship kind = liner. Optimal time = 0.555556.
+641: It is ship: speed = 81, distance = 80, displace = 19, ship kind = liner. Optimal time = 0.987654.
+642: It is ship: speed = 24, distance = 66, displace = 33, ship kind = tug. Optimal time = 2.750000.
+643: It is ship: speed = 92, distance = 38, displace = 34, ship kind = tanker. Optimal time = 0.413043.
+644: It is train: speed = 38, distance = 40, cars counter = 83. Optimal time = 1.052632.
+645: It is plain: speed = 59, distance = 17, fly distance = 87, lifting capacity = 39. Optimal time = 1.474576.
+646: It is plain: speed = 7, distance = 35, fly distance = 45, lifting capacity = 41. Optimal time = 6.428571.
+647: It is train: speed = 50, distance = 63, cars counter = 12. Optimal time = 1.260000.
+648: It is ship: speed = 81, distance = 90, displace = 75, ship kind = liner. Optimal time = 1.111111.
+649: It is train: speed = 8, distance = 69, cars counter = 48. Optimal time = 8.625000.
+650: It is plain: speed = 7, distance = 81, fly distance = 79, lifting capacity = 59. Optimal time = 11.285714.
+651: It is plain: speed = 71, distance = 41, fly distance = 53, lifting capacity = 29. Optimal time = 0.746479.
+652: It is plain: speed = 39, distance = 19, fly distance = 39, lifting capacity = 45. Optimal time = 1.000000.
+653: It is ship: speed = 83, distance = 85, displace = 84, ship kind = liner. Optimal time = 1.024096.
+654: It is train: speed = 47, distance = 64, cars counter = 32. Optimal time = 1.361702.
+655: It is plain: speed = 39, distance = 88, fly distance = 90, lifting capacity = 98. Optimal time = 2.307692.
+656: It is plain: speed = 89, distance = 48, fly distance = 15, lifting capacity = 69. Optimal time = 0.168539.
+657: It is train: speed = 73, distance = 39, cars counter = 1. Optimal time = 0.534247.
+658: It is ship: speed = 91, distance = 81, displace = 74, ship kind = liner. Optimal time = 0.890110.
+659: It is plain: speed = 12, distance = 26, fly distance = 52, lifting capacity = 46. Optimal time = 4.333333.
+660: It is plain: speed = 87, distance = 29, fly distance = 62, lifting capacity = 33. Optimal time = 0.712644.
+661: It is ship: speed = 93, distance = 68, displace = 34, ship kind = liner. Optimal time = 0.731183.
+662: It is plain: speed = 31, distance = 41, fly distance = 98, lifting capacity = 31. Optimal time = 3.161290.
+663: It is train: speed = 18, distance = 61, cars counter = 79. Optimal time = 3.388889.
+664: It is ship: speed = 61, distance = 43, displace = 99, ship kind = tanker. Optimal time = 0.704918.
+665: It is train: speed = 80, distance = 39, cars counter = 27. Optimal time = 0.487500.
+666: It is ship: speed = 42, distance = 24, displace = 67, ship kind = tug. Optimal time = 0.571429.
+667: It is train: speed = 80, distance = 60, cars counter = 48. Optimal time = 0.750000.
+668: It is train: speed = 27, distance = 81, cars counter = 57. Optimal time = 3.000000.
+669: It is train: speed = 12, distance = 97, cars counter = 85. Optimal time = 8.083333.
+670: It is train: speed = 3, distance = 2, cars counter = 54. Optimal time = 0.666667.
+671: It is plain: speed = 10, distance = 66, fly distance = 23, lifting capacity = 60. Optimal time = 2.300000.
+672: It is plain: speed = 91, distance = 39, fly distance = 96, lifting capacity = 69. Optimal time = 1.054945.
+673: It is ship: speed = 38, distance = 93, displace = 62, ship kind = tanker. Optimal time = 2.447368.
+674: It is plain: speed = 41, distance = 29, fly distance = 43, lifting capacity = 65. Optimal time = 1.048780.
+675: It is train: speed = 76, distance = 21, cars counter = 94. Optimal time = 0.276316.
+676: It is plain: speed = 69, distance = 78, fly distance = 32, lifting capacity = 23. Optimal time = 0.463768.
+677: It is ship: speed = 37, distance = 3, displace = 93, ship kind = tanker. Optimal time = 0.081081.
+678: It is plain: speed = 52, distance = 59, fly distance = 68, lifting capacity = 42. Optimal time = 1.307692.
+679: It is plain: speed = 36, distance = 36, fly distance = 43, lifting capacity = 80. Optimal time = 1.194444.
+680: It is train: speed = 12, distance = 28, cars counter = 90. Optimal time = 2.333333.
+681: It is train: speed = 22, distance = 6, cars counter = 46. Optimal time = 0.272727.
+682: It is train: speed = 79, distance = 40, cars counter = 35. Optimal time = 0.506329.
+683: It is plain: speed = 69, distance = 66, fly distance = 22, lifting capacity = 52. Optimal time = 0.318841.
+684: It is plain: speed = 24, distance = 44, fly distance = 55, lifting capacity = 53. Optimal time = 2.291667.
+685: It is ship: speed = 13, distance = 20, displace = 40, ship kind = tug. Optimal time = 1.538462.
+686: It is ship: speed = 76, distance = 13, displace = 39, ship kind = tug. Optimal time = 0.171053.
+687: It is plain: speed = 66, distance = 17, fly distance = 63, lifting capacity = 88. Optimal time = 0.954545.
+688: It is ship: speed = 61, distance = 84, displace = 1, ship kind = tug. Optimal time = 1.377049.
+689: It is ship: speed = 51, distance = 20, displace = 88, ship kind = liner. Optimal time = 0.392157.
+690: It is plain: speed = 42, distance = 96, fly distance = 67, lifting capacity = 96. Optimal time = 1.595238.
+691: It is plain: speed = 66, distance = 61, fly distance = 20, lifting capacity = 5. Optimal time = 0.303030.
+692: It is train: speed = 79, distance = 32, cars counter = 43. Optimal time = 0.405063.
+693: It is ship: speed = 8, distance = 19, displace = 83, ship kind = liner. Optimal time = 2.375000.
+694: It is plain: speed = 22, distance = 98, fly distance = 93, lifting capacity = 57. Optimal time = 4.227273.
+695: It is ship: speed = 44, distance = 27, displace = 49, ship kind = tug. Optimal time = 0.613636.
+696: It is plain: speed = 72, distance = 87, fly distance = 56, lifting capacity = 67. Optimal time = 0.777778.
+697: It is ship: speed = 3, distance = 67, displace = 18, ship kind = liner. Optimal time = 22.333333.
+698: It is ship: speed = 75, distance = 45, displace = 16, ship kind = tug. Optimal time = 0.600000.
+699: It is train: speed = 84, distance = 65, cars counter = 10. Optimal time = 0.773810.
+700: It is plain: speed = 41, distance = 94, fly distance = 39, lifting capacity = 38. Optimal time = 0.951220.
+701: It is plain: speed = 96, distance = 88, fly distance = 30, lifting capacity = 74. Optimal time = 0.312500.
+702: It is plain: speed = 45, distance = 40, fly distance = 59, lifting capacity = 31. Optimal time = 1.311111.
+703: It is ship: speed = 78, distance = 36, displace = 50, ship kind = tanker. Optimal time = 0.461538.
+704: It is ship: speed = 16, distance = 33, displace = 79, ship kind = tug. Optimal time = 2.062500.
+705: It is plain: speed = 37, distance = 52, fly distance = 31, lifting capacity = 53. Optimal time = 0.837838.
+706: It is train: speed = 49, distance = 93, cars counter = 6. Optimal time = 1.897959.
+707: It is plain: speed = 31, distance = 44, fly distance = 86, lifting capacity = 18. Optimal time = 2.774194.
+708: It is ship: speed = 60, distance = 5, displace = 70, ship kind = liner. Optimal time = 0.083333.
+709: It is plain: speed = 1, distance = 46, fly distance = 40, lifting capacity = 36. Optimal time = 40.000000.
+710: It is ship: speed = 35, distance = 40, displace = 62, ship kind = tug. Optimal time = 1.142857.
+711: It is ship: speed = 74, distance = 14, displace = 7, ship kind = tanker. Optimal time = 0.189189.
+712: It is train: speed = 11, distance = 41, cars counter = 97. Optimal time = 3.727273.
+713: It is train: speed = 47, distance = 35, cars counter = 34. Optimal time = 0.744681.
+714: It is plain: speed = 21, distance = 51, fly distance = 15, lifting capacity = 32. Optimal time = 0.714286.
+715: It is train: speed = 37, distance = 30, cars counter = 69. Optimal time = 0.810811.
+716: It is ship: speed = 27, distance = 9, displace = 24, ship kind = tug. Optimal time = 0.333333.
+717: It is train: speed = 15, distance = 87, cars counter = 10. Optimal time = 5.800000.
+718: It is train: speed = 12, distance = 75, cars counter = 95. Optimal time = 6.250000.
+719: It is ship: speed = 23, distance = 6, displace = 81, ship kind = tug. Optimal time = 0.260870.
+720: It is plain: speed = 27, distance = 6, fly distance = 94, lifting capacity = 69. Optimal time = 3.481481.
+721: It is ship: speed = 44, distance = 35, displace = 57, ship kind = tanker. Optimal time = 0.795455.
+722: It is ship: speed = 38, distance = 18, displace = 59, ship kind = tanker. Optimal time = 0.473684.
+723: It is plain: speed = 34, distance = 41, fly distance = 21, lifting capacity = 1. Optimal time = 0.617647.
+724: It is train: speed = 82, distance = 37, cars counter = 91. Optimal time = 0.451220.
+725: It is ship: speed = 32, distance = 83, displace = 31, ship kind = tanker. Optimal time = 2.593750.
+726: It is plain: speed = 49, distance = 97, fly distance = 42, lifting capacity = 54. Optimal time = 0.857143.
+727: It is plain: speed = 62, distance = 31, fly distance = 85, lifting capacity = 96. Optimal time = 1.370968.
+728: It is plain: speed = 34, distance = 19, fly distance = 29, lifting capacity = 3. Optimal time = 0.852941.
+729: It is ship: speed = 45, distance = 81, displace = 11, ship kind = tug. Optimal time = 1.800000.
+730: It is ship: speed = 63, distance = 16, displace = 34, ship kind = liner. Optimal time = 0.253968.
+731: It is train: speed = 41, distance = 82, cars counter = 92. Optimal time = 2.000000.
+732: It is ship: speed = 70, distance = 54, displace = 72, ship kind = liner. Optimal time = 0.771429.
+733: It is ship: speed = 77, distance = 7, displace = 8, ship kind = liner. Optimal time = 0.090909.
+734: It is train: speed = 56, distance = 98, cars counter = 28. Optimal time = 1.750000.
+735: It is ship: speed = 26, distance = 31, displace = 2, ship kind = tug. Optimal time = 1.192308.
+736: It is plain: speed = 64, distance = 11, fly distance = 15, lifting capacity = 26. Optimal time = 0.234375.
+737: It is ship: speed = 100, distance = 77, displace = 35, ship kind = tug. Optimal time = 0.770000.
+738: It is train: speed = 26, distance = 63, cars counter = 80. Optimal time = 2.423077.
+739: It is train: speed = 86, distance = 97, cars counter = 78. Optimal time = 1.127907.
+740: It is ship: speed = 56, distance = 37, displace = 73, ship kind = tanker. Optimal time = 0.660714.
+741: It is ship: speed = 23, distance = 26, displace = 17, ship kind = tug. Optimal time = 1.130435.
+742: It is ship: speed = 19, distance = 22, displace = 70, ship kind = tug. Optimal time = 1.157895.
+743: It is ship: speed = 84, distance = 60, displace = 9, ship kind = tanker. Optimal time = 0.714286.
+744: It is plain: speed = 95, distance = 74, fly distance = 93, lifting capacity = 20. Optimal time = 0.978947.
+745: It is train: speed = 72, distance = 2, cars counter = 25. Optimal time = 0.027778.
+746: It is plain: speed = 79, distance = 39, fly distance = 76, lifting capacity = 68. Optimal time = 0.962025.
+747: It is plain: speed = 73, distance = 11, fly distance = 85, lifting capacity = 50. Optimal time = 1.164384.
+748: It is train: speed = 85, distance = 57, cars counter = 98. Optimal time = 0.670588.
+749: It is train: speed = 26, distance = 31, cars counter = 41. Optimal time = 1.192308.
+750: It is plain: speed = 90, distance = 49, fly distance = 43, lifting capacity = 25. Optimal time = 0.477778.
+751: It is train: speed = 69, distance = 70, cars counter = 14. Optimal time = 1.014493.
+752: It is ship: speed = 93, distance = 15, displace = 81, ship kind = tug. Optimal time = 0.161290.
+753: It is train: speed = 71, distance = 88, cars counter = 13. Optimal time = 1.239437.
+754: It is plain: speed = 13, distance = 75, fly distance = 18, lifting capacity = 62. Optimal time = 1.384615.
+755: It is plain: speed = 54, distance = 19, fly distance = 51, lifting capacity = 11. Optimal time = 0.944444.
+756: It is ship: speed = 34, distance = 51, displace = 5, ship kind = tanker. Optimal time = 1.500000.
+757: It is plain: speed = 99, distance = 100, fly distance = 45, lifting capacity = 67. Optimal time = 0.454545.
+758: It is plain: speed = 10, distance = 23, fly distance = 13, lifting capacity = 24. Optimal time = 1.300000.
+759: It is train: speed = 26, distance = 21, cars counter = 25. Optimal time = 0.807692.
+760: It is ship: speed = 85, distance = 9, displace = 77, ship kind = liner. Optimal time = 0.105882.
+761: It is plain: speed = 39, distance = 13, fly distance = 31, lifting capacity = 9. Optimal time = 0.794872.
+762: It is train: speed = 41, distance = 52, cars counter = 49. Optimal time = 1.268293.
+763: It is train: speed = 8, distance = 71, cars counter = 93. Optimal time = 8.875000.
+764: It is train: speed = 22, distance = 89, cars counter = 73. Optimal time = 4.045455.
+765: It is plain: speed = 98, distance = 47, fly distance = 7, lifting capacity = 22. Optimal time = 0.071429.
+766: It is ship: speed = 32, distance = 94, displace = 29, ship kind = liner. Optimal time = 2.937500.
+767: It is train: speed = 38, distance = 25, cars counter = 38. Optimal time = 0.657895.
+768: It is plain: speed = 15, distance = 2, fly distance = 46, lifting capacity = 23. Optimal time = 3.066667.
+769: It is ship: speed = 38, distance = 26, displace = 65, ship kind = liner. Optimal time = 0.684211.
+770: It is train: speed = 36, distance = 25, cars counter = 40. Optimal time = 0.694444.
+771: It is plain: speed = 14, distance = 64, fly distance = 51, lifting capacity = 11. Optimal time = 3.642857.
+772: It is plain: speed = 57, distance = 84, fly distance = 15, lifting capacity = 40. Optimal time = 0.263158.
+773: It is plain: speed = 96, distance = 87, fly distance = 8, lifting capacity = 33. Optimal time = 0.083333.
+774: It is plain: speed = 97, distance = 99, fly distance = 29, lifting capacity = 98. Optimal time = 0.298969.
+775: It is plain: speed = 51, distance = 15, fly distance = 34, lifting capacity = 77. Optimal time = 0.666667.
+776: It is train: speed = 66, distance = 10, cars counter = 66. Optimal time = 0.151515.
+777: It is plain: speed = 1, distance = 75, fly distance = 3, lifting capacity = 16. Optimal time = 3.000000.
+778: It is ship: speed = 66, distance = 30, displace = 85, ship kind = tug. Optimal time = 0.454545.
+779: It is plain: speed = 76, distance = 78, fly distance = 92, lifting capacity = 14. Optimal time = 1.210526.
+780: It is train: speed = 76, distance = 77, cars counter = 81. Optimal time = 1.013158.
+781: It is ship: speed = 5, distance = 31, displace = 70, ship kind = tanker. Optimal time = 6.200000.
+782: It is plain: speed = 55, distance = 36, fly distance = 75, lifting capacity = 72. Optimal time = 1.363636.
+783: It is train: speed = 41, distance = 61, cars counter = 97. Optimal time = 1.487805.
+784: It is train: speed = 16, distance = 64, cars counter = 95. Optimal time = 4.000000.
+785: It is plain: speed = 94, distance = 79, fly distance = 81, lifting capacity = 90. Optimal time = 0.861702.
+786: It is plain: speed = 11, distance = 81, fly distance = 19, lifting capacity = 47. Optimal time = 1.727273.
+787: It is ship: speed = 47, distance = 80, displace = 81, ship kind = tug. Optimal time = 1.702128.
+788: It is train: speed = 50, distance = 11, cars counter = 6. Optimal time = 0.220000.
+789: It is ship: speed = 46, distance = 80, displace = 27, ship kind = liner. Optimal time = 1.739130.
+790: It is plain: speed = 40, distance = 90, fly distance = 38, lifting capacity = 7. Optimal time = 0.950000.
+791: It is ship: speed = 84, distance = 39, displace = 98, ship kind = tanker. Optimal time = 0.464286.
+792: It is ship: speed = 87, distance = 19, displace = 81, ship kind = tug. Optimal time = 0.218391.
+793: It is ship: speed = 80, distance = 74, displace = 36, ship kind = tanker. Optimal time = 0.925000.
+794: It is train: speed = 39, distance = 20, cars counter = 56. Optimal time = 0.512821.
+795: It is train: speed = 25, distance = 64, cars counter = 98. Optimal time = 2.560000.
+796: It is ship: speed = 42, distance = 39, displace = 28, ship kind = liner. Optimal time = 0.928571.
+797: It is ship: speed = 17, distance = 39, displace = 85, ship kind = tug. Optimal time = 2.294118.
+798: It is ship: speed = 34, distance = 14, displace = 48, ship kind = liner. Optimal time = 0.411765.
+799: It is train: speed = 80, distance = 91, cars counter = 22. Optimal time = 1.137500.
+800: It is ship: speed = 65, distance = 9, displace = 69, ship kind = tanker. Optimal time = 0.138462.
+801: It is plain: speed = 40, distance = 78, fly distance = 48, lifting capacity = 64. Optimal time = 1.200000.
+802: It is ship: speed = 98, distance = 20, displace = 83, ship kind = tug. Optimal time = 0.204082.
+803: It is plain: speed = 15, distance = 68, fly distance = 15, lifting capacity = 54. Optimal time = 1.000000.
+804: It is train: speed = 15, distance = 82, cars counter = 37. Optimal time = 5.466667.
+805: It is plain: speed = 81, distance = 9, fly distance = 65, lifting capacity = 61. Optimal time = 0.802469.
+806: It is train: speed = 38, distance = 23, cars counter = 16. Optimal time = 0.605263.
+807: It is train: speed = 44, distance = 86, cars counter = 45. Optimal time = 1.954545.
+808: It is ship: speed = 63, distance = 45, displace = 99, ship kind = tanker. Optimal time = 0.714286.
+809: It is plain: speed = 70, distance = 38, fly distance = 29, lifting capacity = 68. Optimal time = 0.414286.
+810: It is train: speed = 96, distance = 82, cars counter = 9. Optimal time = 0.854167.
+811: It is plain: speed = 49, distance = 91, fly distance = 40, lifting capacity = 29. Optimal time = 0.816327.
+812: It is ship: speed = 48, distance = 45, displace = 83, ship kind = liner. Optimal time = 0.937500.
+813: It is train: speed = 6, distance = 14, cars counter = 79. Optimal time = 2.333333.
+814: It is train: speed = 51, distance = 24, cars counter = 31. Optimal time = 0.470588.
+815: It is plain: speed = 20, distance = 81, fly distance = 21, lifting capacity = 61. Optimal time = 1.050000.
+816: It is ship: speed = 10, distance = 89, displace = 17, ship kind = tug. Optimal time = 8.900000.
+817: It is train: speed = 99, distance = 74, cars counter = 39. Optimal time = 0.747475.
+818: It is plain: speed = 64, distance = 78, fly distance = 79, lifting capacity = 34. Optimal time = 1.234375.
+819: It is plain: speed = 23, distance = 69, fly distance = 76, lifting capacity = 56. Optimal time = 3.304348.
+820: It is ship: speed = 42, distance = 86, displace = 74, ship kind = tanker. Optimal time = 2.047619.
+821: It is train: speed = 56, distance = 9, cars counter = 80. Optimal time = 0.160714.
+822: It is train: speed = 29, distance = 40, cars counter = 86. Optimal time = 1.379310.
+823: It is plain: speed = 81, distance = 3, fly distance = 55, lifting capacity = 69. Optimal time = 0.679012.
+824: It is ship: speed = 28, distance = 7, displace = 51, ship kind = tug. Optimal time = 0.250000.
+825: It is train: speed = 81, distance = 76, cars counter = 62. Optimal time = 0.938272.
+826: It is plain: speed = 44, distance = 89, fly distance = 10, lifting capacity = 69. Optimal time = 0.227273.
+827: It is plain: speed = 95, distance = 42, fly distance = 74, lifting capacity = 8. Optimal time = 0.778947.
+828: It is ship: speed = 34, distance = 87, displace = 86, ship kind = liner. Optimal time = 2.558824.
+829: It is train: speed = 23, distance = 4, cars counter = 11. Optimal time = 0.173913.
+830: It is ship: speed = 58, distance = 79, displace = 29, ship kind = tug. Optimal time = 1.362069.
+831: It is train: speed = 31, distance = 27, cars counter = 21. Optimal time = 0.870968.
+832: It is plain: speed = 55, distance = 34, fly distance = 65, lifting capacity = 50. Optimal time = 1.181818.
+833: It is plain: speed = 26, distance = 19, fly distance = 4, lifting capacity = 73. Optimal time = 0.153846.
+834: It is plain: speed = 29, distance = 80, fly distance = 61, lifting capacity = 63. Optimal time = 2.103448.
+835: It is plain: speed = 98, distance = 77, fly distance = 96, lifting capacity = 73. Optimal time = 0.979592.
+836: It is ship: speed = 6, distance = 49, displace = 90, ship kind = liner. Optimal time = 8.166667.
+837: It is plain: speed = 78, distance = 73, fly distance = 60, lifting capacity = 57. Optimal time = 0.769231.
+838: It is plain: speed = 23, distance = 11, fly distance = 31, lifting capacity = 39. Optimal time = 1.347826.
+839: It is plain: speed = 5, distance = 17, fly distance = 30, lifting capacity = 60. Optimal time = 6.000000.
+840: It is ship: speed = 42, distance = 89, displace = 68, ship kind = liner. Optimal time = 2.119048.
+841: It is plain: speed = 85, distance = 4, fly distance = 31, lifting capacity = 33. Optimal time = 0.364706.
+842: It is train: speed = 62, distance = 90, cars counter = 24. Optimal time = 1.451613.
+843: It is plain: speed = 26, distance = 5, fly distance = 81, lifting capacity = 50. Optimal time = 3.115385.
+844: It is ship: speed = 37, distance = 94, displace = 39, ship kind = tanker. Optimal time = 2.540541.
+845: It is plain: speed = 29, distance = 58, fly distance = 80, lifting capacity = 45. Optimal time = 2.758621.
+846: It is train: speed = 40, distance = 85, cars counter = 81. Optimal time = 2.125000.
+847: It is ship: speed = 52, distance = 34, displace = 34, ship kind = tanker. Optimal time = 0.653846.
+848: It is ship: speed = 64, distance = 73, displace = 16, ship kind = tug. Optimal time = 1.140625.
+849: It is ship: speed = 92, distance = 28, displace = 39, ship kind = liner. Optimal time = 0.304348.
+850: It is plain: speed = 88, distance = 60, fly distance = 96, lifting capacity = 34. Optimal time = 1.090909.
+851: It is ship: speed = 94, distance = 9, displace = 31, ship kind = liner. Optimal time = 0.095745.
+852: It is ship: speed = 27, distance = 90, displace = 80, ship kind = liner. Optimal time = 3.333333.
+853: It is train: speed = 59, distance = 15, cars counter = 56. Optimal time = 0.254237.
+854: It is ship: speed = 3, distance = 96, displace = 7, ship kind = liner. Optimal time = 32.000000.
+855: It is plain: speed = 31, distance = 89, fly distance = 3, lifting capacity = 10. Optimal time = 0.096774.
+856: It is plain: speed = 98, distance = 69, fly distance = 67, lifting capacity = 10. Optimal time = 0.683673.
+857: It is train: speed = 52, distance = 11, cars counter = 61. Optimal time = 0.211538.
+858: It is plain: speed = 41, distance = 64, fly distance = 100, lifting capacity = 20. Optimal time = 2.439024.
+859: It is ship: speed = 31, distance = 31, displace = 75, ship kind = tanker. Optimal time = 1.000000.
+860: It is plain: speed = 82, distance = 32, fly distance = 100, lifting capacity = 77. Optimal time = 1.219512.
+861: It is ship: speed = 26, distance = 40, displace = 21, ship kind = liner. Optimal time = 1.538462.
+862: It is plain: speed = 30, distance = 45, fly distance = 92, lifting capacity = 51. Optimal time = 3.066667.
+863: It is ship: speed = 1, distance = 18, displace = 14, ship kind = liner. Optimal time = 18.000000.
+864: It is train: speed = 25, distance = 4, cars counter = 42. Optimal time = 0.160000.
+865: It is train: speed = 23, distance = 46, cars counter = 7. Optimal time = 2.000000.
+866: It is ship: speed = 72, distance = 96, displace = 1, ship kind = tanker. Optimal time = 1.333333.
+867: It is train: speed = 100, distance = 82, cars counter = 69. Optimal time = 0.820000.
+868: It is plain: speed = 21, distance = 89, fly distance = 43, lifting capacity = 15. Optimal time = 2.047619.
+869: It is train: speed = 87, distance = 6, cars counter = 72. Optimal time = 0.068966.
+870: It is train: speed = 58, distance = 90, cars counter = 14. Optimal time = 1.551724.
+871: It is ship: speed = 68, distance = 39, displace = 75, ship kind = tug. Optimal time = 0.573529.
+872: It is plain: speed = 49, distance = 6, fly distance = 21, lifting capacity = 5. Optimal time = 0.428571.
+873: It is plain: speed = 68, distance = 6, fly distance = 82, lifting capacity = 47. Optimal time = 1.205882.
+874: It is ship: speed = 15, distance = 67, displace = 34, ship kind = liner. Optimal time = 4.466667.
+875: It is train: speed = 77, distance = 2, cars counter = 76. Optimal time = 0.025974.
+876: It is plain: speed = 59, distance = 48, fly distance = 16, lifting capacity = 68. Optimal time = 0.271186.
+877: It is train: speed = 29, distance = 39, cars counter = 56. Optimal time = 1.344828.
+878: It is train: speed = 14, distance = 68, cars counter = 33. Optimal time = 4.857143.
+879: It is ship: speed = 73, distance = 54, displace = 19, ship kind = tanker. Optimal time = 0.739726.
+880: It is plain: speed = 24, distance = 36, fly distance = 19, lifting capacity = 80. Optimal time = 0.791667.
+881: It is ship: speed = 85, distance = 14, displace = 37, ship kind = tug. Optimal time = 0.164706.
+882: It is plain: speed = 38, distance = 67, fly distance = 8, lifting capacity = 48. Optimal time = 0.210526.
+883: It is plain: speed = 75, distance = 15, fly distance = 54, lifting capacity = 4. Optimal time = 0.720000.
+884: It is plain: speed = 9, distance = 22, fly distance = 71, lifting capacity = 76. Optimal time = 7.888889.
+885: It is train: speed = 84, distance = 100, cars counter = 60. Optimal time = 1.190476.
+886: It is plain: speed = 54, distance = 80, fly distance = 29, lifting capacity = 89. Optimal time = 0.537037.
+887: It is plain: speed = 9, distance = 38, fly distance = 35, lifting capacity = 74. Optimal time = 3.888889.
+888: It is plain: speed = 78, distance = 67, fly distance = 64, lifting capacity = 44. Optimal time = 0.820513.
+889: It is ship: speed = 12, distance = 9, displace = 49, ship kind = liner. Optimal time = 0.750000.
+890: It is ship: speed = 4, distance = 83, displace = 22, ship kind = tanker. Optimal time = 20.750000.
+891: It is ship: speed = 49, distance = 83, displace = 89, ship kind = tug. Optimal time = 1.693878.
+892: It is plain: speed = 42, distance = 53, fly distance = 74, lifting capacity = 23. Optimal time = 1.761905.
+893: It is plain: speed = 24, distance = 31, fly distance = 31, lifting capacity = 10. Optimal time = 1.291667.
+894: It is ship: speed = 57, distance = 87, displace = 74, ship kind = tanker. Optimal time = 1.526316.
+895: It is train: speed = 47, distance = 83, cars counter = 42. Optimal time = 1.765957.
+896: It is ship: speed = 13, distance = 55, displace = 2, ship kind = tanker. Optimal time = 4.230769.
+897: It is train: speed = 79, distance = 100, cars counter = 28. Optimal time = 1.265823.
+898: It is train: speed = 88, distance = 28, cars counter = 3. Optimal time = 0.318182.
+899: It is plain: speed = 32, distance = 76, fly distance = 3, lifting capacity = 25. Optimal time = 0.093750.
+900: It is plain: speed = 85, distance = 55, fly distance = 60, lifting capacity = 92. Optimal time = 0.705882.
+901: It is plain: speed = 99, distance = 65, fly distance = 82, lifting capacity = 80. Optimal time = 0.828283.
+902: It is train: speed = 17, distance = 22, cars counter = 10. Optimal time = 1.294118.
+903: It is ship: speed = 28, distance = 64, displace = 75, ship kind = tanker. Optimal time = 2.285714.
+904: It is plain: speed = 26, distance = 83, fly distance = 54, lifting capacity = 65. Optimal time = 2.076923.
+905: It is ship: speed = 56, distance = 46, displace = 94, ship kind = tanker. Optimal time = 0.821429.
+906: It is train: speed = 18, distance = 85, cars counter = 85. Optimal time = 4.722222.
+907: It is plain: speed = 45, distance = 28, fly distance = 86, lifting capacity = 95. Optimal time = 1.911111.
+908: It is plain: speed = 19, distance = 74, fly distance = 56, lifting capacity = 87. Optimal time = 2.947368.
+909: It is ship: speed = 17, distance = 67, displace = 75, ship kind = tanker. Optimal time = 3.941176.
+910: It is plain: speed = 82, distance = 73, fly distance = 19, lifting capacity = 16. Optimal time = 0.231707.
+911: It is plain: speed = 84, distance = 78, fly distance = 34, lifting capacity = 29. Optimal time = 0.404762.
+912: It is ship: speed = 69, distance = 80, displace = 40, ship kind = tanker. Optimal time = 1.159420.
+913: It is train: speed = 15, distance = 49, cars counter = 44. Optimal time = 3.266667.
+914: It is train: speed = 43, distance = 88, cars counter = 70. Optimal time = 2.046512.
+915: It is ship: speed = 43, distance = 9, displace = 15, ship kind = tanker. Optimal time = 0.209302.
+916: It is plain: speed = 41, distance = 91, fly distance = 68, lifting capacity = 74. Optimal time = 1.658537.
+917: It is plain: speed = 87, distance = 90, fly distance = 41, lifting capacity = 70. Optimal time = 0.471264.
+918: It is train: speed = 75, distance = 50, cars counter = 89. Optimal time = 0.666667.
+919: It is train: speed = 81, distance = 80, cars counter = 95. Optimal time = 0.987654.
+920: It is train: speed = 94, distance = 44, cars counter = 92. Optimal time = 0.468085.
+921: It is plain: speed = 38, distance = 79, fly distance = 66, lifting capacity = 6. Optimal time = 1.736842.
+922: It is plain: speed = 74, distance = 21, fly distance = 31, lifting capacity = 1. Optimal time = 0.418919.
+923: It is train: speed = 73, distance = 68, cars counter = 87. Optimal time = 0.931507.
+924: It is plain: speed = 6, distance = 76, fly distance = 76, lifting capacity = 27. Optimal time = 12.666667.
+925: It is train: speed = 2, distance = 28, cars counter = 34. Optimal time = 14.000000.
+926: It is ship: speed = 9, distance = 13, displace = 91, ship kind = liner. Optimal time = 1.444444.
+927: It is train: speed = 86, distance = 48, cars counter = 2. Optimal time = 0.558140.
+928: It is ship: speed = 26, distance = 19, displace = 29, ship kind = tanker. Optimal time = 0.730769.
+929: It is plain: speed = 1, distance = 28, fly distance = 93, lifting capacity = 13. Optimal time = 93.000000.
+930: It is ship: speed = 12, distance = 51, displace = 40, ship kind = liner. Optimal time = 4.250000.
+931: It is ship: speed = 15, distance = 96, displace = 71, ship kind = liner. Optimal time = 6.400000.
+932: It is plain: speed = 4, distance = 64, fly distance = 32, lifting capacity = 68. Optimal time = 8.000000.
+933: It is plain: speed = 88, distance = 77, fly distance = 91, lifting capacity = 35. Optimal time = 1.034091.
+934: It is plain: speed = 14, distance = 12, fly distance = 97, lifting capacity = 94. Optimal time = 6.928571.
+935: It is plain: speed = 41, distance = 46, fly distance = 88, lifting capacity = 85. Optimal time = 2.146341.
+936: It is train: speed = 40, distance = 48, cars counter = 9. Optimal time = 1.200000.
+937: It is train: speed = 65, distance = 86, cars counter = 46. Optimal time = 1.323077.
+938: It is train: speed = 9, distance = 66, cars counter = 36. Optimal time = 7.333333.
+939: It is train: speed = 29, distance = 67, cars counter = 32. Optimal time = 2.310345.
+940: It is ship: speed = 6, distance = 60, displace = 73, ship kind = tanker. Optimal time = 10.000000.
+941: It is ship: speed = 38, distance = 55, displace = 86, ship kind = tanker. Optimal time = 1.447368.
+942: It is plain: speed = 78, distance = 28, fly distance = 2, lifting capacity = 14. Optimal time = 0.025641.
+943: It is ship: speed = 94, distance = 61, displace = 98, ship kind = liner. Optimal time = 0.648936.
+944: It is plain: speed = 83, distance = 21, fly distance = 90, lifting capacity = 91. Optimal time = 1.084337.
+945: It is ship: speed = 25, distance = 7, displace = 15, ship kind = tug. Optimal time = 0.280000.
+946: It is plain: speed = 49, distance = 48, fly distance = 49, lifting capacity = 73. Optimal time = 1.000000.
+947: It is train: speed = 38, distance = 63, cars counter = 45. Optimal time = 1.657895.
+948: It is plain: speed = 45, distance = 59, fly distance = 52, lifting capacity = 25. Optimal time = 1.155556.
+949: It is plain: speed = 65, distance = 62, fly distance = 5, lifting capacity = 78. Optimal time = 0.076923.
+950: It is ship: speed = 29, distance = 55, displace = 93, ship kind = tug. Optimal time = 1.896552.
+951: It is ship: speed = 36, distance = 87, displace = 68, ship kind = liner. Optimal time = 2.416667.
+952: It is ship: speed = 10, distance = 31, displace = 53, ship kind = liner. Optimal time = 3.100000.
+953: It is train: speed = 77, distance = 51, cars counter = 69. Optimal time = 0.662338.
+954: It is plain: speed = 95, distance = 43, fly distance = 36, lifting capacity = 5. Optimal time = 0.378947.
+955: It is ship: speed = 60, distance = 16, displace = 63, ship kind = liner. Optimal time = 0.266667.
+956: It is plain: speed = 40, distance = 31, fly distance = 1, lifting capacity = 94. Optimal time = 0.025000.
+957: It is ship: speed = 1, distance = 37, displace = 58, ship kind = liner. Optimal time = 37.000000.
+958: It is ship: speed = 51, distance = 91, displace = 65, ship kind = liner. Optimal time = 1.784314.
+959: It is ship: speed = 25, distance = 12, displace = 72, ship kind = liner. Optimal time = 0.480000.
+960: It is ship: speed = 10, distance = 21, displace = 74, ship kind = tug. Optimal time = 2.100000.
+961: It is train: speed = 20, distance = 56, cars counter = 41. Optimal time = 2.800000.
+962: It is ship: speed = 28, distance = 13, displace = 22, ship kind = tug. Optimal time = 0.464286.
+963: It is train: speed = 68, distance = 33, cars counter = 13. Optimal time = 0.485294.
+964: It is train: speed = 42, distance = 52, cars counter = 12. Optimal time = 1.238095.
+965: It is plain: speed = 94, distance = 28, fly distance = 25, lifting capacity = 89. Optimal time = 0.265957.
+966: It is ship: speed = 88, distance = 60, displace = 79, ship kind = tug. Optimal time = 0.681818.
+967: It is plain: speed = 52, distance = 45, fly distance = 18, lifting capacity = 76. Optimal time = 0.346154.
+968: It is train: speed = 25, distance = 68, cars counter = 98. Optimal time = 2.720000.
+969: It is ship: speed = 80, distance = 20, displace = 62, ship kind = tanker. Optimal time = 0.250000.
+970: It is plain: speed = 94, distance = 57, fly distance = 94, lifting capacity = 88. Optimal time = 1.000000.
+971: It is plain: speed = 5, distance = 32, fly distance = 53, lifting capacity = 33. Optimal time = 10.600000.
+972: It is ship: speed = 93, distance = 37, displace = 96, ship kind = tug. Optimal time = 0.397849.
+973: It is plain: speed = 66, distance = 25, fly distance = 66, lifting capacity = 62. Optimal time = 1.000000.
+974: It is train: speed = 94, distance = 26, cars counter = 70. Optimal time = 0.276596.
+975: It is train: speed = 23, distance = 74, cars counter = 93. Optimal time = 3.217391.
+976: It is train: speed = 36, distance = 36, cars counter = 32. Optimal time = 1.000000.
+977: It is plain: speed = 44, distance = 26, fly distance = 20, lifting capacity = 3. Optimal time = 0.454545.
+978: It is plain: speed = 51, distance = 8, fly distance = 14, lifting capacity = 59. Optimal time = 0.274510.
+979: It is train: speed = 50, distance = 6, cars counter = 4. Optimal time = 0.120000.
+980: It is ship: speed = 23, distance = 80, displace = 82, ship kind = tug. Optimal time = 3.478261.
+981: It is train: speed = 75, distance = 10, cars counter = 94. Optimal time = 0.133333.
+982: It is train: speed = 84, distance = 68, cars counter = 32. Optimal time = 0.809524.
+983: It is plain: speed = 55, distance = 19, fly distance = 13, lifting capacity = 87. Optimal time = 0.236364.
+984: It is plain: speed = 38, distance = 7, fly distance = 17, lifting capacity = 20. Optimal time = 0.447368.
+985: It is plain: speed = 24, distance = 85, fly distance = 15, lifting capacity = 24. Optimal time = 0.625000.
+986: It is ship: speed = 72, distance = 27, displace = 51, ship kind = tanker. Optimal time = 0.375000.
+987: It is plain: speed = 32, distance = 79, fly distance = 30, lifting capacity = 59. Optimal time = 0.937500.
+988: It is train: speed = 75, distance = 98, cars counter = 23. Optimal time = 1.306667.
+989: It is plain: speed = 29, distance = 4, fly distance = 48, lifting capacity = 99. Optimal time = 1.655172.
+990: It is ship: speed = 35, distance = 61, displace = 6, ship kind = tanker. Optimal time = 1.742857.
+991: It is plain: speed = 77, distance = 49, fly distance = 53, lifting capacity = 62. Optimal time = 0.688312.
+992: It is train: speed = 28, distance = 96, cars counter = 87. Optimal time = 3.428571.
+993: It is plain: speed = 46, distance = 81, fly distance = 11, lifting capacity = 29. Optimal time = 0.239130.
+994: It is ship: speed = 92, distance = 87, displace = 98, ship kind = tug. Optimal time = 0.945652.
+995: It is plain: speed = 73, distance = 60, fly distance = 64, lifting capacity = 76. Optimal time = 0.876712.
+996: It is ship: speed = 63, distance = 44, displace = 94, ship kind = liner. Optimal time = 0.698413.
+997: It is ship: speed = 34, distance = 56, displace = 26, ship kind = tug. Optimal time = 1.647059.
+998: It is plain: speed = 39, distance = 97, fly distance = 88, lifting capacity = 34. Optimal time = 2.256410.
+999: It is plain: speed = 42, distance = 31, fly distance = 16, lifting capacity = 4. Optimal time = 0.380952.
